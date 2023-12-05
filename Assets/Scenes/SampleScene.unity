@@ -5799,6 +5799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotTree: {fileID: 1352375803}
   cur_tree: {fileID: 0}
+  isSelected: 0
 --- !u!4 &1711991311
 Transform:
   m_ObjectHideFlags: 0
