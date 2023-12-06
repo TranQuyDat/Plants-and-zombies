@@ -152,6 +152,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 0
-  timeDelayAct: 1
+  timeDelayAct: 2
   projectile: {fileID: 573342366153085428, guid: c70be446f3c7f3549ad830b55d9a99ef, type: 3}
   posshoot: {fileID: 6063556592422370433}
