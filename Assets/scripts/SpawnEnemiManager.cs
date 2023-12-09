@@ -27,7 +27,7 @@ public class SpawnEnemiManager : MonoBehaviour
     public float timedelaySpawn;
     Level curLevel;
     int levelnum, wavenum;
-    [HideInInspector] public int alivezombiecount;
+    public bool nextWave;
     int Cur_ZombiesCount;
     private void Start()
     {
@@ -38,20 +38,30 @@ public class SpawnEnemiManager : MonoBehaviour
     public void defaultSetting()
     {
         levelnum = 0;
-        wavenum = 0;
+        wavenum = -1;
         curLevel = Levels[levelnum];
-        curLevel.updateWave(wavenum);
-        Cur_ZombiesCount = curLevel.cur_wave.ZombiesCount;
-        alivezombiecount = Cur_ZombiesCount;
     }
     public void updateLevel()
     {
         levelnum++;
-        curLevel = Levels[levelnum];
+        if (levelnum >= Levels.Count) return;
+            curLevel = Levels[levelnum];
+    }
+    public void NextWave()
+    {
+        wavenum++;
+        if ( wavenum > curLevel.listwave.Count) //check khi het so luong wave cua 1 level
+        {
+            wavenum = 0;
+            updateLevel();
+        }
+        curLevel.updateWave(wavenum);
+        Cur_ZombiesCount = curLevel.cur_wave.ZombiesCount; // gan lai so luong zombies cua wave
+        nextWave = false;
     }
     public void spawnZombies()
     {
-        if (Cur_ZombiesCount > 0) // check so luong zombies cua moi wave
+        if (levelnum>=0 && Cur_ZombiesCount > 0) // check so luong zombies cua moi wave
         {
             
             GameObject randomZombie = curLevel.cur_wave.zombiesType[
@@ -61,16 +71,11 @@ public class SpawnEnemiManager : MonoBehaviour
             Cur_ZombiesCount--;
             return;
         }
-        if (alivezombiecount > 0) return;
-        wavenum++;
-        if (wavenum > curLevel.listwave.Count) //check khi het wave cua 1 level
-        {
-            wavenum = 0;
-            updateLevel();
-        }
-        curLevel.updateWave(wavenum);
-        Cur_ZombiesCount = curLevel.cur_wave.ZombiesCount;
-        alivezombiecount = Cur_ZombiesCount;
+
+        if (nextWave == false) return;
+        NextWave();
+
+
 
     }
 

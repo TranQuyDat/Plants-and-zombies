@@ -7,6 +7,6 @@ public class demo : MonoBehaviour
     public SpawnEnemiManager spawn;
     public void destroyenemy()
     {
-        spawn.alivezombiecount--;
+        
     }
 }

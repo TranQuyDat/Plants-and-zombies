@@ -16,7 +16,7 @@ public class slotTreeMap : MonoBehaviour
     }
     private void OnMouseOver()
     {
-        Debug.Log("mouse in " + this.name);
+       // Debug.Log("mouse in " + this.name);
         if(selectedCusor.cur_tree == null || isSpawn)
         {
             ShadownTree.SetActive(false);
