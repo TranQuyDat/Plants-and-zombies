@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class demo : MonoBehaviour
 {
-    public GameObject name;
+    public SpawnEnemiManager spawn;
+    public void destroyenemy()
+    {
+        
+    }
 }

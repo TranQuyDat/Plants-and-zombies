@@ -7,7 +7,7 @@ public class SelectedCusor : MonoBehaviour
     public GameObject slotTree = null;
     public GameObject cur_tree = null;
 
-    bool isSelected ;
+    [HideInInspector] public bool isSelected ;
     private void Start()
     {
         isSelected = false; 
@@ -15,6 +15,7 @@ public class SelectedCusor : MonoBehaviour
     private void Update()
     {
         selectTree();
+
     }
 
     public void selectTree()
@@ -26,7 +27,7 @@ public class SelectedCusor : MonoBehaviour
             isSelected = false;
             return;
         }
-        if (!isSelected)
+        if (!isSelected )
         {
             slotTree.SetActive(true);
             slotTree.GetComponent<SpriteRenderer>().sprite

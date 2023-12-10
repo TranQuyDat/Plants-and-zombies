@@ -12,5 +12,6 @@ public class TreeCardController : MonoBehaviour
     {
         Debug.Log("this ok ");
         selectedCusor.cur_tree = Tree;
+        selectedCusor.isSelected = false;
     }
 }
