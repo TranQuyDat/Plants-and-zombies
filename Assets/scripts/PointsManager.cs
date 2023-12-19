@@ -21,7 +21,6 @@ public class PointsManager : MonoBehaviour
     private void Update()
     {
         updatePoint();
-
     }
     public void spawnSun()
     {
@@ -40,6 +39,7 @@ public class PointsManager : MonoBehaviour
     public void updatePoint()
     {
         if (txt_point.text == cur_points.ToString()) return;
+        if (cur_points <= 0) cur_points = 0;
         txt_point.text = cur_points.ToString();
     }
 }

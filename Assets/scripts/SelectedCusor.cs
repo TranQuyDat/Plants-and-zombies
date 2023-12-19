@@ -8,12 +8,14 @@ public class SelectedCusor : MonoBehaviour
     public GameObject slotTree ;// slot de chua anh cua tree
     public GameObject cur_tree = null;// chua prefab cua trees
     public GameObject cur_Item = null;// chua prefab item (shovel)
-
     public ShovelBoxController shovelboxctrl;
-    [HideInInspector] public bool isSelected ;
+    GameManager gameManager;
+    [HideInInspector] public bool isSelected;
+    [HideInInspector] public int priceOftree;
     private void Start()
     {
-        isSelected = false; 
+        isSelected = false;
+        gameManager = FindObjectOfType<GameManager>();
     }
     private void Update()
     {
@@ -52,7 +54,12 @@ public class SelectedCusor : MonoBehaviour
 
     public void ResetCursor()
     {
-        if (!Input.GetKeyDown(KeyCode.Mouse1)) return; 
+        if (!Input.GetKeyDown(KeyCode.Mouse1)) return;
+        if(cur_tree != null)
+        {
+            gameManager.pointsManager.addPoint(priceOftree);
+            priceOftree = 0;
+        }
         cur_tree = null;
         cur_Item = null;
         isSelected = false;
