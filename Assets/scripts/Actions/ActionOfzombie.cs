@@ -4,6 +4,8 @@ using UnityEngine;
 
 public abstract class ActionOfzombie : MonoBehaviour, AIaction
 {
-    public float hp;
+    public float speed;
+    public int hp;
+    
     public abstract void action();
 }
