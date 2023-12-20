@@ -14,6 +14,13 @@ public class slotTreeMap : MonoBehaviour
         isSpawn = false;
         selectedCusor = GameObject.FindObjectOfType<SelectedCusor>();
     }
+    private void Update()
+    {
+        if (isSpawn && curTree == null)
+        {
+            isSpawn = false;
+        }
+    }
     private void OnMouseOver()
     {
        // Debug.Log("mouse in " + this.name);
@@ -50,7 +57,5 @@ public class slotTreeMap : MonoBehaviour
             curTree.transform.localScale = ShadownTree.transform.localScale;
             curTree.GetComponent<SpriteRenderer>().color = Color.white;
         }
-        
-
     }
 }
