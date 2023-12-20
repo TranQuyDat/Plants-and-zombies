@@ -74,9 +74,6 @@ public class SpawnEnemiManager : MonoBehaviour
 
         if (nextWave == false) return;
         NextWave();
-
-
-
     }
 
 
