@@ -19,6 +19,7 @@ public class SelectedCusor : MonoBehaviour
     }
     private void Update()
     {
+        if (!gameManager.GameStart) return;
         selectTree();
         selectItem();
         ResetCursor();
