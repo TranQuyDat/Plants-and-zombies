@@ -22,6 +22,7 @@ class Level
 }
 public class SpawnEnemiManager : MonoBehaviour
 {
+    public GameManager gameManager;
     public List<Transform> listPosSpawn;
     [SerializeField] private List<Level> Levels ;
     public float timedelaySpawn;
@@ -31,6 +32,8 @@ public class SpawnEnemiManager : MonoBehaviour
     int Cur_ZombiesCount;
     private void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
+        if (!gameManager.GameStart) return;
         defaultSetting();
         InvokeRepeating("spawnZombies", timedelaySpawn, timedelaySpawn);
     }

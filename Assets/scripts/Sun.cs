@@ -16,6 +16,7 @@ public class Sun : MonoBehaviour
     }
     private void Update()
     {
+        if (!gameManager.GameStart) return;
         StartCoroutine(movetoAndaddpoint());
     }
     public void addpoint()

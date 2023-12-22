@@ -6,6 +6,7 @@ using TMPro;
 
 public class PointsManager : MonoBehaviour
 {
+    public GameManager gameManager;
     [Header("********spawnSun*********")]
     public GameObject prefapSun;
     public Transform[] posSpwan;
@@ -15,15 +16,19 @@ public class PointsManager : MonoBehaviour
 
     private void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         cur_points = 50;
+        
         InvokeRepeating("spawnSun", 3f, Random.Range(15,30));
     }
     private void Update()
     {
+        
         updatePoint();
     }
     public void spawnSun()
     {
+        if (!gameManager.GameStart) return;
         float Xmin = posSpwan[0].position.x;
         float Xmax = posSpwan[1].position.x;
         Vector2 pos = new Vector2(Random.Range(Xmin,Xmax),posSpwan[0].position.y);

@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class ShovelBoxController : MonoBehaviour
 {
+    public GameManager gameManager;
     public GameObject Shovel;
     public SelectedCusor cursor;
 
     [HideInInspector] public bool isSelectShovel;
     private void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         isSelectShovel = false;
     }
     private void OnMouseDown()
     {
-        if (cursor.cur_tree != null) return;
+        if (!gameManager.GameStart|| cursor.cur_tree != null) return;
         if (!isSelectShovel)
         {
             selectShovel();
