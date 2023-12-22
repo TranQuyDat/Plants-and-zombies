@@ -17,7 +17,9 @@ public class PointsManager : MonoBehaviour
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-        
+
+        cur_points = 50;
+
         InvokeRepeating("spawnSun", 3f, Random.Range(15,30));
     }
     private void Update()
