@@ -7,6 +7,11 @@ public class cell_boardselectTree : MonoBehaviour
 {
     public GameObject data;
     public GameObject imgitem;
+    public bool ischoosed;
+    private void Start()
+    {
+        ischoosed = false;
+    }
     private void Update()
     {
         updateItem();

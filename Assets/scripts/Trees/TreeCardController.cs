@@ -19,6 +19,7 @@ public class TreeCardController : MonoBehaviour
     Image cur_imgcard;
     private void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         isActiveCard = true;
         gameManager = FindObjectOfType<GameManager>();
         selectedCusor = GameObject.FindAnyObjectByType<SelectedCusor>()
@@ -28,6 +29,7 @@ public class TreeCardController : MonoBehaviour
 
     private void Update()
     {
+        if (!gameManager.GameStart) return;
         updateStatusCard();
 
         if(!isActiveCard) StartCoroutine(waitCardactive());
