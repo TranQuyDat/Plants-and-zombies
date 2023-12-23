@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public selectBarController selectBarController;
     public SpawnEnemiManager SpawnEnemi;
     int zombiecount;
+<<<<<<< HEAD
    
         
         private void Start()
@@ -47,5 +48,30 @@ public class GameManager : MonoBehaviour
                 GameOver();
             }
         }
+=======
+    private void Start()
+    {
+        zombiecount = SpawnEnemi.getAllzombiescount();
+        GameStart = false;
+    }
+    private void Update()
+    {
+        updateZombiescount();
+        GameOver();
+    }
+
+    public void updateZombiescount()
+    {
+        if (zombiecount != SpawnEnemi.getAllzombiescount())
+        {
+            zombiecount = SpawnEnemi.getAllzombiescount();
+        }
+    }
+
+    public void GameOver()
+    {
+        if (zombiecount > 0) return;
+        Debug.Log("Gameover");
+>>>>>>> 8532154 (24/12/2023 update fix)
     }
 
