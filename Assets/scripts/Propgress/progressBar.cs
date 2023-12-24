@@ -20,20 +20,21 @@ public class progressBar : MonoBehaviour
     private void Update()
     {
 
-        fillbar.value = fillbar.value + 0.01f*speed *Time.deltaTime;
-<<<<<<< HEAD
 
-=======
->>>>>>> c379538 (Committing changes before rebase)
+        fillbar.value = fillbar.value + 0.01f*speed *Time.deltaTime;
+
+
+
+        fillbar.value = fillbar.value + 0.01f*speed *Time.deltaTime;
         if(curWavecount!= SpawnEnemi.getWavecount())
         {
             curWavecount = SpawnEnemi.getWavecount();
             createWavetrigger();
         }
 
+
         fillbar.value = fillbar.value + (0.01f/curWavecount)*speed *Time.deltaTime;
         
-
     }
     public void createWavetrigger()
     {

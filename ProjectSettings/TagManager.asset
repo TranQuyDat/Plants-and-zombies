@@ -14,9 +14,12 @@ TagManager:
   - flowerpot
   - slotmap
 <<<<<<< HEAD
+<<<<<<< HEAD
   - GameOver
 =======
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   layers:
   - Default
   - TransparentFX

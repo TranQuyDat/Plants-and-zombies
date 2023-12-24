@@ -11,8 +11,6 @@ public class GameManager : MonoBehaviour
     public SpawnEnemiManager SpawnEnemi;
     int zombiecount;
 
-
-
     private void Start()
     {
         zombiecount = SpawnEnemi.getAllzombiescount();
@@ -37,10 +35,7 @@ public class GameManager : MonoBehaviour
         if (zombiecount > 0) return;
         Debug.Log("GameWin");
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> c379538 (Committing changes before rebase)
     public void GameOver()
     {
         Debug.Log("GameOver");
@@ -53,9 +48,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> c379538 (Committing changes before rebase)
 }
 

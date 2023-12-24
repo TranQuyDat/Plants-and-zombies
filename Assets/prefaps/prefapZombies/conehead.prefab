@@ -13,9 +13,12 @@ GameObject:
   - component: {fileID: 7609161641120083155}
   - component: {fileID: 6866597041352012346}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 8140880294499465263}
 =======
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_Layer: 6
   m_Name: conehead
   m_TagString: zombie
