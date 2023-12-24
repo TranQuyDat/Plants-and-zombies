@@ -35,6 +35,11 @@ public class Sun : MonoBehaviour
     }
     public void MoveTo()
     {
+        if (target == null || target.transform == null)
+        {
+            Debug.LogError("Target or Target's transform is null. Cannot move to target.");
+            return;
+        }
         Vector3 pos = target.transform.position;
         this.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
         this.transform.position = Vector2.Lerp(this.transform.position, pos, 0.1f);
