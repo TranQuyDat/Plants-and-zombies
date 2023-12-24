@@ -45,4 +45,12 @@ public  class TreeShooter : ActionOfTreeShooter
     {
         Destroy(this.gameObject);
     }
+    public override void Hit(int damage)
+    {
+        hp -= damage;
+        if (hp <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
