@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7774238762179163306}
   - component: {fileID: 7550187351183902573}
+  - component: {fileID: -1266212966419516082}
   - component: {fileID: 5731041924070688130}
   m_Layer: 0
   m_Name: Sunflower
@@ -85,6 +86,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-1266212966419516082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661842956580217335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8df36d84e9bc2c4fb30f855aff65e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  timeDelayAct: 3
+  prefapSun: {fileID: 3533640653444511520, guid: 68056eb2dc9fef34d9eb8bffb94db296, type: 3}
+  posSpawnSun: {fileID: 7774238762179163306}
 --- !u!95 &5731041924070688130
 Animator:
   serializedVersion: 5
