@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         updateZombiescount();
-        GameOver();
+        GameWin();
     }
 
     public void updateZombiescount()
@@ -29,10 +29,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GameOver()
+    public void GameWin()
     {
         if (zombiecount > 0) return;
-        Debug.Log("Gameover");
+        Debug.Log("GameWin");
     }
 
 }

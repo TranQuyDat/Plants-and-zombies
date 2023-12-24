@@ -5,31 +5,53 @@ using UnityEngine;
 public class slotTreeMap : MonoBehaviour
 {
     public GameObject ShadownTree;
+    public string SlotType;
     SelectedCusor selectedCusor;
 
-    bool isSpawn;
+    bool isnotEmty;
     GameObject curTree;
     private void Start()
     {
-        isSpawn = false;
+        isnotEmty = false;
         selectedCusor = GameObject.FindObjectOfType<SelectedCusor>();
     }
     private void Update()
     {
-        if (isSpawn && curTree == null)
+
+        if (isnotEmty && curTree == null)
         {
-            isSpawn = false;
+            isnotEmty = false;
         }
     }
     private void OnMouseOver()
     {
        // Debug.Log("mouse in " + this.name);
-        if(selectedCusor.cur_tree == null || isSpawn)
+        if( selectedCusor.cur_tree == null || isnotEmty)
         {
             ShadownTree.SetActive(false);
             return;
         }
-        if(selectedCusor.cur_tree != null && !ShadownTree.active)
+        if(selectedCusor.cur_tree != null && !ShadownTree.active &&
+            !selectedCusor.cur_tree.CompareTag(this.gameObject.tag))
+        {
+            showShadowNotTree();
+            showShadowTree();
+        }
+    }
+    public void showShadowNotTree()
+    {
+        if (selectedCusor.cur_tree.CompareTag("tree")) return;
+        if (selectedCusor.cur_tree != null && !ShadownTree.active)
+        {
+            ShadownTree.SetActive(true);
+            ShadownTree.GetComponent<SpriteRenderer>().sprite
+                = selectedCusor.cur_tree.GetComponent<SpriteRenderer>().sprite;
+        }
+    }
+    public void showShadowTree()
+    {
+        if (SlotType != "ground") return;
+        if (selectedCusor.cur_tree != null && !ShadownTree.active)
         {
             ShadownTree.SetActive(true);
             ShadownTree.GetComponent<SpriteRenderer>().sprite
@@ -38,7 +60,7 @@ public class slotTreeMap : MonoBehaviour
     }
     private void OnMouseExit()
     {
-        Debug.Log("mouse out " + this.name);
+        //Debug.Log("mouse out " + this.name);
         if (ShadownTree.active)
         {
             ShadownTree.SetActive(false);
@@ -47,10 +69,11 @@ public class slotTreeMap : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("mouse down " + this.name);
-        if(selectedCusor.cur_tree != null && isSpawn == false)
+        //Debug.Log("mouse down " + this.name);
+        if(selectedCusor.cur_tree != null && isnotEmty == false && 
+            !selectedCusor.cur_tree.CompareTag(this.tag))
         {
-            isSpawn = true;
+            isnotEmty = true;
             curTree = Instantiate(selectedCusor.cur_tree,ShadownTree.transform.position
                 ,Quaternion.identity,this.transform);
             selectedCusor.cur_tree = null;
