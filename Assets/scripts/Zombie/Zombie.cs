@@ -12,7 +12,7 @@ public class Zombie : ActionOfzombie
     // Update is called once per frame
     void Update()
     {
-        transform.position -= new Vector3(speed, 0, 0);
+        transform.position -= new Vector3(speed*Time.deltaTime, 0, 0);
     }
     public override void action()
     {

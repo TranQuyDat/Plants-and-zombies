@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6770789926169925641}
   - component: {fileID: 7609161641120083155}
   - component: {fileID: 6866597041352012346}
+  - component: {fileID: 8140880294499465263}
   m_Layer: 6
   m_Name: conehead
   m_TagString: zombie
@@ -152,3 +153,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.34790802, y: 0.55835485}
   m_EdgeRadius: 0
+--- !u!114 &8140880294499465263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536808113361810764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcd8a6322e25874d925fb4bd52d2ccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  hp: 0
