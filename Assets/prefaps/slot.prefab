@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5951091099131060330}
   m_Layer: 5
   m_Name: slot
-  m_TagString: Untagged
+  m_TagString: slotmap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9502147, g: 0.990566, b: 0.36819148, a: 0.19215687}
+  m_Color: {r: 0.9502147, g: 0.990566, b: 0.36819148, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShadownTree: {fileID: 9210774087115014437}
+  SlotType: ground
 --- !u!1 &9210774087115014437
 GameObject:
   m_ObjectHideFlags: 0
