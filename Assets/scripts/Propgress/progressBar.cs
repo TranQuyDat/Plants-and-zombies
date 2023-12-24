@@ -21,7 +21,7 @@ public class progressBar : MonoBehaviour
     {
 
         fillbar.value = fillbar.value + 0.01f*speed *Time.deltaTime;
-
+        
         if(curWavecount!= SpawnEnemi.getWavecount())
         {
             curWavecount = SpawnEnemi.getWavecount();
