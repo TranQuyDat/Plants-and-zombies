@@ -34,7 +34,6 @@ public class SpawnEnemiManager : MonoBehaviour
     {
         gameManager = FindObjectOfType<GameManager>();
 
-
         if (!gameManager.GameStart) return;
 
 

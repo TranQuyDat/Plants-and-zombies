@@ -124,7 +124,10 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!224 &13512425 stripped
@@ -1453,6 +1456,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!1 &714528568690646735
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 --- !u!224 &8298391 stripped
 RectTransform:
@@ -1503,6 +1507,8 @@ RectTransform:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1511,7 +1517,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   - component: {fileID: 5238665913872124788}
@@ -3190,6 +3199,7 @@ GameObject:
   m_Layer: 5
   m_Name: row (4)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   - component: {fileID: 107023121}
   m_Layer: 0
@@ -3197,11 +3207,14 @@ GameObject:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!1 &2107660459140332638
@@ -3214,12 +3227,19 @@ Transform:
 --- !u!1 &2107660459140332638
 GameObject:
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!1 &2107660459140332638
+GameObject:
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   serializedVersion: 6
@@ -3499,6 +3519,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!1001 &2347397771983495348
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   m_GameObject: {fileID: 107023120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -3548,11 +3569,14 @@ GameObject:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 4175226902802509593}
@@ -3609,6 +3633,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 =======
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_TransformParent: {fileID: 4175226902802509593}
     m_Modifications:
     - target: {fileID: 2357703504607799889, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
@@ -3723,11 +3749,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: slotCard (3)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
@@ -3816,6 +3846,10 @@ RectTransform:
   m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
 --- !u!1 &2352508842788134815
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
+--- !u!1 &2352508842788134815
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3824,7 +3858,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   - component: {fileID: 777265096402719829}
@@ -3840,6 +3877,7 @@ GameObject:
 --- !u!114 &2382244965051545956
 MonoBehaviour:
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   - component: {fileID: 332245603}
   m_Layer: 0
@@ -3854,12 +3892,17 @@ Transform:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_GameObject: {fileID: 6293874542931895768}
@@ -4022,6 +4065,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   m_GameObject: {fileID: 332245602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -4067,6 +4111,8 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
   m_PrefabInstance: {fileID: 4479890782724303713}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_PrefabAsset: {fileID: 0}
@@ -4179,7 +4225,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 710180162}
   m_Enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_EditorHideFlags: 0
@@ -4188,6 +4237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
 --- !u!1001 &2712310550223246252
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   m_Avatar: {fileID: 0}
@@ -4491,13 +4541,18 @@ GameObject:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_TransformParent: {fileID: 5868171780129768484}
@@ -4505,6 +4560,7 @@ PrefabInstance:
     - target: {fileID: 1062445232085149883, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_Name
       value: slotCard_view (5)
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
     m_TransformParent: {fileID: 643500201}
@@ -6096,6 +6152,8 @@ PrefabInstance:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_Pivot.x
@@ -6187,7 +6245,10 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!224 &2762845095896146521
@@ -6373,9 +6434,12 @@ GameObject:
   m_IsActive: 1
 --- !u!1001 &2950610634242527342
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 --- !u!1001 &460158008166162795
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
@@ -6384,11 +6448,15 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 8125562830435882127}
 ========
     m_TransformParent: {fileID: 3786608811269837729}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+    m_TransformParent: {fileID: 8125562830435882127}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
     m_TransformParent: {fileID: 8125562830435882127}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -8328,7 +8396,10 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!1001 &4166938633158891824
@@ -8807,10 +8878,13 @@ GameObject:
 Rigidbody2D:
   serializedVersion: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 --- !u!224 &460651165807806904
 RectTransform:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_ObjectHideFlags: 0
@@ -8818,7 +8892,10 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_GameObject: {fileID: 5466776136409655138}
@@ -8842,6 +8919,7 @@ RectTransform:
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!114 &4301377632625526856
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   m_GameObject: {fileID: 6794362462056470780}
@@ -8892,17 +8970,23 @@ RectTransform:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 5830200435252277776}
 ========
   m_GameObject: {fileID: 6331793956517347345}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+  m_GameObject: {fileID: 5830200435252277776}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
   m_GameObject: {fileID: 5830200435252277776}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -8913,11 +8997,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_Color: {r: 0.33962262, g: 0.23189384, b: 0.07176929, a: 1}
 ========
   m_Color: {r: 0.41901925, g: 0.8396226, b: 0.18535063, a: 1}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+  m_Color: {r: 0.33962262, g: 0.23189384, b: 0.07176929, a: 1}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
   m_Color: {r: 0.33962262, g: 0.23189384, b: 0.07176929, a: 1}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -8928,7 +9016,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
@@ -8936,6 +9027,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
@@ -8946,11 +9038,14 @@ MonoBehaviour:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!1001 &4312937066137919031
@@ -8960,13 +9055,19 @@ MonoBehaviour:
 =======
 --- !u!1001 &4312937066137919031
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!1001 &4312937066137919031
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_TransformParent: {fileID: 1250516482756638645}
@@ -9144,9 +9245,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6456406105504899550}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
     m_TransformParent: {fileID: 5704907624460341642}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
@@ -9169,11 +9273,15 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchorMax.y
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
       value: 1
 ========
       value: 0
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+      value: 1
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: 1
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -9185,7 +9293,10 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchorMin.y
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 1
@@ -9198,6 +9309,7 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 139.09
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
       value: 0
       objectReference: {fileID: 0}
@@ -9209,6 +9321,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
@@ -9243,7 +9357,10 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 850
@@ -9252,6 +9369,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -60
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
       value: 0
       objectReference: {fileID: 0}
@@ -9259,6 +9377,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
@@ -9277,11 +9397,15 @@ PrefabInstance:
     - target: {fileID: 7727819831258340789, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Name
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
       value: slot (5)
 ========
       value: slot
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+      value: slot (5)
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: slot (5)
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -9292,6 +9416,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!1001 &4635061659915147483
 ========
@@ -9300,11 +9425,15 @@ PrefabInstance:
 =======
 --- !u!1001 &4635061659915147483
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!1001 &4635061659915147483
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 4175226902802509593}
@@ -10247,6 +10376,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 4175226902802509593}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 4175226902802509593}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 2357703504607799889, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
       propertyPath: m_Type
@@ -10359,11 +10491,15 @@ PrefabInstance:
     - target: {fileID: 4888902470896183542, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
       propertyPath: m_Name
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
       value: slotCard (5)
 ========
       value: slotCard (2)
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+      value: slotCard (5)
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: slotCard (5)
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -10373,6 +10509,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!222 &4655219238826572291
@@ -10502,11 +10639,15 @@ PrefabInstance:
 =======
 --- !u!222 &4655219238826572291
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!222 &4655219238826572291
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 1795888775351288321}
@@ -10647,11 +10788,17 @@ PrefabInstance:
   m_CullTransparentMesh: 1
 --- !u!224 &4693529997794755606
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_GameObject: {fileID: 1795888775351288321}
+  m_CullTransparentMesh: 1
+--- !u!224 &4693529997794755606
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 5911965516866194869}
@@ -10661,11 +10808,15 @@ RectTransform:
 =======
   m_GameObject: {fileID: 5911965516866194869}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_GameObject: {fileID: 5911965516866194869}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   - {fileID: 7103898159733836420}
@@ -11919,6 +12070,11 @@ RectTransform:
   - {fileID: 1386067813332064366}
   m_Father: {fileID: 44017102184197855}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  - {fileID: 7103898159733836420}
+  - {fileID: 1386067813332064366}
+  m_Father: {fileID: 44017102184197855}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11927,7 +12083,10 @@ RectTransform:
   m_SizeDelta: {x: -20, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!222 &4718073570026630994
@@ -11940,9 +12099,12 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!114 &4740002703898033019
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 --- !u!114 &2935116482034141352
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 MonoBehaviour:
@@ -11951,11 +12113,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 5892060358488618637}
 ========
   m_GameObject: {fileID: 4087212471426631006}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+  m_GameObject: {fileID: 5892060358488618637}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
   m_GameObject: {fileID: 5892060358488618637}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -11983,6 +12149,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!1001 &4769431705021203277
 ========
@@ -11991,11 +12158,15 @@ MonoBehaviour:
 =======
 --- !u!1001 &4769431705021203277
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!1001 &4769431705021203277
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 6456406105504899550}
@@ -12130,6 +12301,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 6456406105504899550}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 6456406105504899550}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Pivot.x
@@ -12218,11 +12392,15 @@ PrefabInstance:
     - target: {fileID: 7727819831258340789, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Name
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
       value: slot (1)
 ========
       value: slot (5)
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+      value: slot (1)
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: slot (1)
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -12232,6 +12410,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!1 &4769922786338901838
@@ -12249,12 +12428,19 @@ CanvasRenderer:
 --- !u!1 &4769922786338901838
 GameObject:
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!1 &4769922786338901838
+GameObject:
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   serializedVersion: 6
@@ -12272,11 +12458,14 @@ GameObject:
   m_IsActive: 1
 --- !u!1001 &4774362501491386597
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   m_GameObject: {fileID: 8183103094983061970}
   m_CullTransparentMesh: 1
 --- !u!1001 &3033585269050329250
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
@@ -12285,7 +12474,10 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_TransformParent: {fileID: 6456406105504899550}
@@ -12408,9 +12600,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4175226902802509593}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
     m_TransformParent: {fileID: 5804327401525812426}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
@@ -12532,11 +12727,15 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!1001 &5038956448031457810
 ========
 --- !u!1001 &3115803599404751670
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+--- !u!1001 &5038956448031457810
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 --- !u!1001 &5038956448031457810
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -12546,11 +12745,15 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 2762845095896146521}
 ========
     m_TransformParent: {fileID: 3523429674346205709}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+    m_TransformParent: {fileID: 2762845095896146521}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
     m_TransformParent: {fileID: 2762845095896146521}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -13386,7 +13589,10 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!1 &5652476036470073524
@@ -13427,9 +13633,12 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &5713093856281155574
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 --- !u!1001 &3119889972555411614
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
@@ -13437,6 +13646,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 8851239127036013365}
@@ -15926,6 +16136,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 8851239127036013365}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 8851239127036013365}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 297288770276159273, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_Name
@@ -15935,7 +16148,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 2537241443790394158}
@@ -15944,9 +16160,12 @@ PrefabInstance:
       value: setcur_selectTree
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
       objectReference: {fileID: 5353205583945605373}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
@@ -16043,7 +16262,10 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!222 &5785128942885588398
@@ -16056,6 +16278,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!1 &5830200435252277776
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 --- !u!1 &4888902471306853352 stripped
 GameObject:
@@ -16066,6 +16289,8 @@ GameObject:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16074,7 +16299,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   - component: {fileID: 8520633665790075827}
@@ -16082,6 +16310,7 @@ GameObject:
   - component: {fileID: 4301377632625526856}
   m_Layer: 5
   m_Name: SlotItems
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   - component: {fileID: 5402493960147439487}
@@ -16094,11 +16323,14 @@ GameObject:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!224 &5868171780129768484
@@ -16111,12 +16343,19 @@ GameObject:
 --- !u!224 &5868171780129768484
 RectTransform:
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!224 &5868171780129768484
+RectTransform:
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_GameObject: {fileID: 7781764961539680281}
@@ -16141,6 +16380,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5884208500416782597
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   serializedVersion: 6
   m_Component:
@@ -16158,19 +16398,25 @@ RectTransform:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_GameObject: {fileID: 4769922786338901838}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   m_GameObject: {fileID: 6794362462056470780}
@@ -16210,6 +16456,8 @@ MonoBehaviour:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -16222,11 +16470,15 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
 ========
     m_NormalColor: {r: 0.8431373, g: 0.7490196, b: 0.62352943, a: 1}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -16249,7 +16501,10 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_TargetGraphic: {fileID: 3315371920985213004}
@@ -16309,6 +16564,7 @@ GameObject:
   m_IsActive: 1
 --- !u!224 &6011643049819346690
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   m_TargetGraphic: {fileID: 4430186400086536017}
   m_HandleRect: {fileID: 2713017769468734284}
@@ -16323,13 +16579,18 @@ GameObject:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_GameObject: {fileID: 8872765917338003099}
@@ -16339,6 +16600,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 223725984962428975}
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   m_GameObject: {fileID: 6086267266874080930}
@@ -16392,18 +16654,24 @@ RectTransform:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6054896961400413314
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   m_AnchoredPosition: {x: -313.99994, y: 116.640015}
@@ -16452,11 +16720,14 @@ RectTransform:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 7547031755777744555}
@@ -16576,6 +16847,9 @@ MonoBehaviour:
 =======
   m_GameObject: {fileID: 7547031755777744555}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_GameObject: {fileID: 7547031755777744555}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -16583,11 +16857,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 ========
   m_Color: {r: 0.8078432, g: 0.72156864, b: 0.59607846, a: 1}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -16607,6 +16885,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_PixelsPerUnitMultiplier: 1
 --- !u!1001 &6056289016393336227
@@ -16618,11 +16897,16 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!1001 &6056289016393336227
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &6056289016393336227
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 5868171780129768484}
@@ -18111,6 +18395,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 5868171780129768484}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 5868171780129768484}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 1062445232085149883, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_Name
@@ -18205,7 +18492,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_SourcePrefab: {fileID: 100100000, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
@@ -18667,6 +18957,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
 --- !u!1 &6376201653794193366
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   m_SourcePrefab: {fileID: 100100000, guid: 730d38fded7e55e43824692a49210dd1, type: 3}
 --- !u!114 &5966688487439940507
@@ -18703,6 +18994,8 @@ MonoBehaviour:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18711,7 +19004,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   - component: {fileID: 6396829297515827556}
@@ -18719,6 +19015,7 @@ GameObject:
   - component: {fileID: 1387909992810719889}
   m_Layer: 5
   m_Name: bar
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   - component: {fileID: 4961279224004467047}
@@ -18728,11 +19025,14 @@ GameObject:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!224 &6396829297515827556
@@ -18750,11 +19050,15 @@ CanvasRenderer:
 =======
 --- !u!224 &6396829297515827556
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!224 &6396829297515827556
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 6376201653794193366}
@@ -18764,11 +19068,15 @@ RectTransform:
 =======
   m_GameObject: {fileID: 6376201653794193366}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_GameObject: {fileID: 6376201653794193366}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   - {fileID: 8005412704186120811}
@@ -18783,6 +19091,11 @@ RectTransform:
   - {fileID: 8520633665790075827}
   m_Father: {fileID: 6686414886291147382}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  - {fileID: 8005412704186120811}
+  - {fileID: 8520633665790075827}
+  m_Father: {fileID: 6686414886291147382}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -18790,6 +19103,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!1001 &6445822562695519820
@@ -18825,13 +19139,19 @@ GameObject:
 =======
 --- !u!1001 &6445822562695519820
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!1001 &6445822562695519820
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_TransformParent: {fileID: 6456406105504899550}
@@ -19281,6 +19601,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5868171780129768484}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
     m_TransformParent: {fileID: 1416827027917674726}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
@@ -19385,6 +19706,8 @@ PrefabInstance:
       propertyPath: data
       value: 
 =======
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 1062445232085149883, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_Name
@@ -19485,12 +19808,16 @@ PrefabInstance:
     - target: {fileID: 5328008136276654819, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_Color.r
       value: 1
+<<<<<<< HEAD
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_SourcePrefab: {fileID: 100100000, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
@@ -19503,13 +19830,20 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
 --- !u!114 &6680881704675794878
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
+--- !u!114 &6680881704675794878
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_GameObject: {fileID: 5892060358488618637}
@@ -19643,6 +19977,7 @@ GameObject:
   m_IsActive: 0
 --- !u!1001 &6840150865321535443
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   m_GameObject: {fileID: 8308231943940531882}
   m_Enabled: 1
@@ -19672,13 +20007,18 @@ GameObject:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_TransformParent: {fileID: 2762845095896146521}
@@ -21788,6 +22128,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4175226902802509593}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
     m_TransformParent: {fileID: 5704907624460341642}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
@@ -21880,6 +22221,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: slot (4)
 =======
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 2995196051762199258, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
       propertyPath: m_Pivot.x
@@ -21968,12 +22311,16 @@ PrefabInstance:
     - target: {fileID: 4888902470896183542, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
       propertyPath: m_Name
       value: slotCard
+<<<<<<< HEAD
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
@@ -22092,17 +22439,25 @@ MonoBehaviour:
   m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
 --- !u!1001 &8602441133623115462
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
+--- !u!1001 &8602441133623115462
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 1303526205270539913}
 ========
     m_TransformParent: {fileID: 1855399397996504924}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+    m_TransformParent: {fileID: 1303526205270539913}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
     m_TransformParent: {fileID: 1303526205270539913}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -22126,11 +22481,15 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchorMax.y
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
       value: 1
 ========
       value: 0
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+      value: 1
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: 1
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -22142,7 +22501,10 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchorMin.y
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 1
@@ -22155,6 +22517,7 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 167.33089
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
       value: 0
       objectReference: {fileID: 0}
@@ -22166,6 +22529,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
@@ -22200,7 +22565,10 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 76.583
@@ -22209,6 +22577,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -265
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
       value: 0
       objectReference: {fileID: 0}
@@ -22216,6 +22585,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
@@ -22234,11 +22605,15 @@ PrefabInstance:
     - target: {fileID: 7727819831258340789, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Name
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
       value: slot
 ========
       value: slot (2)
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+      value: slot
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: slot
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -22249,6 +22624,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
 --- !u!114 &8609540149635474894
 ========
@@ -22257,11 +22633,15 @@ PrefabInstance:
 =======
 --- !u!114 &8609540149635474894
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!114 &8609540149635474894
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 8872765917338003099}
@@ -22291,6 +22671,9 @@ MonoBehaviour:
 =======
   m_GameObject: {fileID: 8872765917338003099}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_GameObject: {fileID: 8872765917338003099}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -22305,6 +22688,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_text: start
 ========
@@ -22312,6 +22696,9 @@ MonoBehaviour:
 
 '
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+  m_text: start
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
   m_text: start
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -22324,6 +22711,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     rgba: 4292274159
   m_fontColor: {r: 0.93725497, g: 0.9058824, b: 0.83921576, a: 1}
@@ -22331,6 +22719,10 @@ MonoBehaviour:
     rgba: 4278216447
   m_fontColor: {r: 1, g: 0.39998162, b: 0, a: 1}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+    rgba: 4292274159
+  m_fontColor: {r: 0.93725497, g: 0.9058824, b: 0.83921576, a: 1}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
     rgba: 4292274159
   m_fontColor: {r: 0.93725497, g: 0.9058824, b: 0.83921576, a: 1}
@@ -22352,7 +22744,10 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_fontSize: 28.45
@@ -22365,6 +22760,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
   m_fontSize: 23.1
   m_fontSizeBase: 12
@@ -22376,6 +22772,8 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_textAlignment: 65535
@@ -22412,7 +22810,10 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!222 &8625024308487844326
@@ -22424,6 +22825,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 3784524169518131560}
   m_CullTransparentMesh: 1
 --- !u!224 &8777046845946287818
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
 --- !u!1001 &6636675388192233972
@@ -22531,13 +22933,18 @@ PrefabInstance:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_GameObject: {fileID: 415182407323363563}
@@ -22556,6 +22963,7 @@ RectTransform:
   m_SizeDelta: {x: 255.85, y: 42.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8826190442404195957
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
   m_GameObject: {fileID: 7938171863903320503}
@@ -22697,11 +23105,14 @@ PrefabInstance:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 7781764961539680281}
@@ -23804,6 +24215,9 @@ MonoBehaviour:
 =======
   m_GameObject: {fileID: 7781764961539680281}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_GameObject: {fileID: 7781764961539680281}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
@@ -23824,7 +24238,10 @@ MonoBehaviour:
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!222 &8837543030806541907
@@ -23837,9 +24254,12 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!1001 &8841157515510184199
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 --- !u!1001 &7998015278790032026
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
@@ -23848,11 +24268,15 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
     m_TransformParent: {fileID: 6456406105504899550}
 ========
     m_TransformParent: {fileID: 1855399397996504924}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+    m_TransformParent: {fileID: 6456406105504899550}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
     m_TransformParent: {fileID: 6456406105504899550}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -23876,11 +24300,15 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchorMax.y
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
       value: 1
 ========
       value: 0
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+      value: 1
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: 1
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -23892,7 +24320,10 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchorMin.y
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 1
@@ -23905,6 +24336,7 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 150.82
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
       value: 0
       objectReference: {fileID: 0}
@@ -23916,6 +24348,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
@@ -23950,7 +24384,10 @@ PrefabInstance:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 999.43
@@ -24162,6 +24599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
       value: 0
       objectReference: {fileID: 0}
@@ -24171,6 +24609,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24194,7 +24634,10 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 --- !u!1 &9030182123235341514
@@ -24234,9 +24677,12 @@ GameObject:
   m_IsActive: 1
 --- !u!1001 &9071012876497709836
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 --- !u!1001 &8059441072014028842
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
@@ -24245,7 +24691,10 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_TransformParent: {fileID: 4175226902802509593}
@@ -24362,6 +24811,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: slotCard (2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
     m_TransformParent: {fileID: 1855399397996504924}
     m_Modifications:
@@ -24455,11 +24905,14 @@ PrefabInstance:
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
@@ -25001,11 +25454,16 @@ MonoBehaviour:
   m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
 --- !u!222 &9136979829431283898
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
+--- !u!222 &9136979829431283898
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/Map3.unity
   m_GameObject: {fileID: 4513577376208073666}
@@ -25978,6 +26436,10 @@ RectTransform:
   m_SizeDelta: {x: 0, y: -41.83}
   m_Pivot: {x: 0.5, y: 0.5}
 >>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3):Assets/Scenes/Map1.unity
+=======
+  m_GameObject: {fileID: 4513577376208073666}
+  m_CullTransparentMesh: 1
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
   m_GameObject: {fileID: 4513577376208073666}
   m_CullTransparentMesh: 1

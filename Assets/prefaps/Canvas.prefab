@@ -37,15 +37,19 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 =======
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 355.43, y: -29.540003}
   m_SizeDelta: {x: 255.85, y: 42.94}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -56,6 +60,8 @@ RectTransform:
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
 =======
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_Pivot: {x: 0.5, y: 0.5}
@@ -82,9 +88,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 =======
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_Color: {r: 0.8078432, g: 0.72156864, b: 0.59607846, a: 1}
@@ -799,11 +808,14 @@ MonoBehaviour:
   m_Color: {r: 0.7137255, g: 0.3647059, b: 0.10980393, a: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   m_Color: {r: 0.49803925, g: 0.17254902, b: 0, a: 1}
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
 =======
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_RaycastTarget: 1
@@ -812,6 +824,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
@@ -824,6 +837,10 @@ MonoBehaviour:
   m_Sprite: {fileID: 0}
   m_Type: 0
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -831,6 +848,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
@@ -975,6 +993,10 @@ RectTransform:
   m_PixelsPerUnitMultiplier: 1
 --- !u!1 &2076179370124406160
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2076179370124406160
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
   m_PixelsPerUnitMultiplier: 1
 --- !u!1 &2076179370124406160
@@ -4794,6 +4816,7 @@ PrefabInstance:
     m_AddedComponents: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
   m_SourcePrefab: {fileID: 100100000, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
 --- !u!224 &1762901131723939733 stripped
@@ -5090,6 +5113,10 @@ RectTransform:
   m_SourcePrefab: {fileID: 100100000, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
 --- !u!224 &1762901131723939733 stripped
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
+--- !u!224 &1762901131723939733 stripped
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
   m_PrefabInstance: {fileID: 477498228752094453}
@@ -5308,6 +5335,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 --- !u!1001 &639502233518851016
 =======
@@ -5520,6 +5548,9 @@ CircleCollider2D:
 =======
 --- !u!1001 &639502233518851016
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+--- !u!1001 &639502233518851016
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 --- !u!1001 &639502233518851016
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -6997,6 +7028,7 @@ PrefabInstance:
     serializedVersion: 3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
     m_TransformParent: {fileID: 1303526205446429106}
 =======
@@ -8405,6 +8437,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 1303526205446429106}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 1303526205446429106}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Pivot.x
@@ -8504,6 +8539,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
   m_PrefabInstance: {fileID: 2552088561212859212}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
@@ -8644,6 +8680,9 @@ Animator:
 =======
 --- !u!1001 &2712310550330995863
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+--- !u!1001 &2712310550330995863
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 --- !u!1001 &2712310550330995863
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -10771,6 +10810,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 --- !u!1001 &4769431704879916150
 =======
@@ -11300,11 +11340,15 @@ MonoBehaviour:
 =======
 --- !u!1001 &4769431704879916150
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!1001 &4769431704879916150
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
@@ -13450,6 +13494,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 6456406105430181605}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 6456406105430181605}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Pivot.x
@@ -13551,6 +13598,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 --- !u!1001 &4774362501616422878
 =======
@@ -13592,11 +13640,15 @@ Transform:
 =======
 --- !u!1001 &4774362501616422878
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+--- !u!1001 &4774362501616422878
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_TransformParent: {fileID: 487829888}
@@ -13949,6 +14001,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 6456406105430181605}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 6456406105430181605}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Pivot.x
@@ -14054,6 +14109,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
@@ -20446,6 +20502,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 4175226902659631138}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 4175226902659631138}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 2357703504607799889, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
       propertyPath: m_Type
@@ -21920,10 +21979,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 1
 =======
       value: 0
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+      value: 0
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: 0
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -21936,6 +21999,7 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
@@ -21948,6 +22012,8 @@ PrefabInstance:
 =======
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
@@ -21958,7 +22024,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
@@ -21994,6 +22063,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
@@ -22002,13 +22072,18 @@ PrefabInstance:
 =======
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
@@ -22029,6 +22104,7 @@ PrefabInstance:
       value: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
       objectReference: {fileID: 0}
 =======
@@ -22044,13 +22120,18 @@ PrefabInstance:
 =======
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
   m_SourcePrefab: {fileID: 100100000, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
@@ -22183,6 +22264,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
@@ -22380,6 +22462,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 5868171780203963167}
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+    m_TransformParent: {fileID: 5868171780203963167}
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
     m_Modifications:
     - target: {fileID: 1062445232085149883, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_Name
@@ -22405,10 +22490,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 1
 =======
       value: 0
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+      value: 0
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
       value: 0
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
@@ -22419,6 +22508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_AnchorMin.y
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       value: 1
@@ -22433,6 +22523,8 @@ PrefabInstance:
 =======
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
@@ -22443,7 +22535,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
@@ -22479,6 +22574,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 49.47018
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
@@ -22487,13 +22583,18 @@ PrefabInstance:
 =======
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
+=======
+>>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
 =======
 >>>>>>> 90b0e3e1063723437820ff494112d8509862b76d
       objectReference: {fileID: 0}
