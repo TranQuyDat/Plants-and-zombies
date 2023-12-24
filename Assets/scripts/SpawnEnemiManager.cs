@@ -33,12 +33,10 @@ public class SpawnEnemiManager : MonoBehaviour
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-<<<<<<< HEAD
 
         if (!gameManager.GameStart) return;
 
-=======
->>>>>>> 8532154 (24/12/2023 update fix)
+
         defaultSetting();
         InvokeRepeating("spawnZombies", timedelaySpawn, timedelaySpawn);
     }

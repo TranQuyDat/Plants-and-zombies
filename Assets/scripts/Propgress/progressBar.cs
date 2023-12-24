@@ -19,20 +19,18 @@ public class progressBar : MonoBehaviour
     }
     private void Update()
     {
-<<<<<<< HEAD
-=======
+
         fillbar.value = fillbar.value + 0.01f*speed *Time.deltaTime;
->>>>>>> 8532154 (24/12/2023 update fix)
+
         if(curWavecount!= SpawnEnemi.getWavecount())
         {
             curWavecount = SpawnEnemi.getWavecount();
             createWavetrigger();
         }
-<<<<<<< HEAD
+
         fillbar.value = fillbar.value + (0.01f/curWavecount)*speed *Time.deltaTime;
         
-=======
->>>>>>> 8532154 (24/12/2023 update fix)
+
     }
     public void createWavetrigger()
     {

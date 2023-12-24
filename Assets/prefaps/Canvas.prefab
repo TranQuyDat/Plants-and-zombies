@@ -35,17 +35,23 @@ RectTransform:
   m_Father: {fileID: 777265096227877742}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
+=======
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 355.43, y: -29.540003}
   m_SizeDelta: {x: 255.85, y: 42.94}
+<<<<<<< HEAD
 =======
   m_AnchorMin: {x: 0.530334, y: 0.77233934}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20.000006, y: -20}
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4718073569899481193
 CanvasRenderer:
@@ -68,7 +74,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
+=======
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
   m_Color: {r: 0.8078432, g: 0.72156864, b: 0.59607846, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -779,17 +788,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.7137255, g: 0.3647059, b: 0.10980393, a: 1}
+<<<<<<< HEAD
 =======
   m_Color: {r: 0.49803925, g: 0.17254902, b: 0, a: 1}
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
+=======
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -797,6 +814,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
   m_PixelsPerUnitMultiplier: 1
 --- !u!1 &2076179370124406160
@@ -935,6 +953,10 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &91190841
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2076179370124406160
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4748,6 +4770,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
   m_SourcePrefab: {fileID: 100100000, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
 --- !u!224 &1762901131723939733 stripped
@@ -5036,6 +5059,10 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &187863879 stripped
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
+--- !u!224 &1762901131723939733 stripped
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
   m_PrefabInstance: {fileID: 477498228752094453}
@@ -5252,6 +5279,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
   m_PrefabInstance: {fileID: 541231569038257778}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 --- !u!1001 &639502233518851016
 =======
@@ -5461,6 +5489,9 @@ CircleCollider2D:
   m_Radius: 11.513243
 --- !u!1001 &315473454
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+--- !u!1001 &639502233518851016
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -6933,6 +6964,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
     m_TransformParent: {fileID: 1303526205446429106}
 =======
@@ -8335,6 +8367,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 336961926}
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+    m_TransformParent: {fileID: 1303526205446429106}
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
     m_Modifications:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Pivot.x
@@ -8434,6 +8469,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
   m_PrefabInstance: {fileID: 2552088561212859212}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 --- !u!1001 &2712310550330995863
 =======
@@ -8569,6 +8605,9 @@ Animator:
   m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &533687370
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+--- !u!1001 &2712310550330995863
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10691,6 +10730,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2995196051762199258, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
   m_PrefabInstance: {fileID: 4635061660008742880}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 --- !u!1001 &4769431704879916150
 =======
@@ -11214,11 +11254,15 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!1001 &618477334
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+--- !u!1001 &4769431704879916150
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
     m_TransformParent: {fileID: 6456406105430181605}
 =======
@@ -13356,6 +13400,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 91190842}
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+    m_TransformParent: {fileID: 6456406105430181605}
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
     m_Modifications:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Pivot.x
@@ -13455,6 +13502,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
   m_PrefabInstance: {fileID: 4769431704879916150}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
 --- !u!1001 &4774362501616422878
 =======
@@ -13490,11 +13538,15 @@ Transform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1056695744
+=======
+--- !u!1001 &4774362501616422878
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
     m_TransformParent: {fileID: 487829888}
     m_Modifications:
     - target: {fileID: 297288770276159273, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
@@ -13839,6 +13891,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1096700403}
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+    m_TransformParent: {fileID: 6456406105430181605}
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
     m_Modifications:
     - target: {fileID: 5215786385895502751, guid: 6992f3fcee5a54040ab795faae74acad, type: 3}
       propertyPath: m_Pivot.x
@@ -13944,6 +13999,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
     m_TransformParent: {fileID: 4175226902659631138}
 =======
@@ -20328,6 +20384,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1320874980}
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+    m_TransformParent: {fileID: 4175226902659631138}
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
     m_Modifications:
     - target: {fileID: 2357703504607799889, guid: 9fdc8a56d4436204aae6605c554aaf97, type: 3}
       propertyPath: m_Type
@@ -21800,7 +21859,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_AnchorMax.y
+<<<<<<< HEAD
       value: 1
+=======
+      value: 0
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_AnchorMin.x
@@ -21808,6 +21871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_AnchorMin.y
+<<<<<<< HEAD
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
@@ -21817,6 +21881,17 @@ PrefabInstance:
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_SizeDelta.y
       value: 100
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21848,11 +21923,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -69
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
       objectReference: {fileID: 0}
     - target: {fileID: 2222384745590786912, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21869,6 +21952,7 @@ PrefabInstance:
     - target: {fileID: 3473187339410796058, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       propertyPath: data
       value: 
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
       objectReference: {fileID: 0}
 =======
@@ -21881,6 +21965,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 297288770276159273, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1581371092}
+=======
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
   m_SourcePrefab: {fileID: 100100000, guid: c203515c2bffa334884fda3f8ee47ae0, type: 3}
 --- !u!224 &4961763682902286377 stripped
 RectTransform:
@@ -22011,6 +22102,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/prefaps/Canvas.prefab
     m_TransformParent: {fileID: 5868171780203963167}
 =======
@@ -22200,6 +22292,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1737135820}
 >>>>>>> e8a59bc (23/12/2023 update: Thiết kế ui cho bảng chọn cây lúc đầu game + code : bảng chọn cây lúc đầu game):Assets/Scenes/SampleScene.unity
+=======
+    m_TransformParent: {fileID: 5868171780203963167}
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
     m_Modifications:
     - target: {fileID: 1062445232085149883, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_Name
@@ -22223,7 +22318,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_AnchorMax.y
+<<<<<<< HEAD
       value: 1
+=======
+      value: 0
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_AnchorMin.x
@@ -22231,6 +22330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_AnchorMin.y
+<<<<<<< HEAD
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
@@ -22240,6 +22340,17 @@ PrefabInstance:
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_SizeDelta.y
       value: 91.49
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22271,11 +22382,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 49.47018
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -48.745
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
       objectReference: {fileID: 0}
     - target: {fileID: 3352320017277772935, guid: 4778b41ccb7153d459273a3e3d42a06e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

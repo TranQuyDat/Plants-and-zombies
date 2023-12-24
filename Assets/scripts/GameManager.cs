@@ -10,45 +10,9 @@ public class GameManager : MonoBehaviour
     public selectBarController selectBarController;
     public SpawnEnemiManager SpawnEnemi;
     int zombiecount;
-<<<<<<< HEAD
-   
-        
-        private void Start()
-        {
-            zombiecount = SpawnEnemi.getAllzombiescount();
-            GameStart = false;
-        }
-        private void Update()
-        {
-            updateZombiescount();
-            GameWin();
-        }
 
-        public void updateZombiescount()
-        {
-            if (zombiecount != SpawnEnemi.getAllzombiescount())
-            {
-                zombiecount = SpawnEnemi.getAllzombiescount();
-            }
-        }
 
-        public void GameWin()
-        {
-            if (zombiecount > 0) return;
-            Debug.Log("GameWin");
-        }
-        public void GameOver()
-        {
-            Debug.Log("GameOver");
-        }
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collision.CompareTag("zombie"))
-            {
-                GameOver();
-            }
-        }
-=======
+
     private void Start()
     {
         zombiecount = SpawnEnemi.getAllzombiescount();
@@ -57,7 +21,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         updateZombiescount();
-        GameOver();
+        GameWin();
     }
 
     public void updateZombiescount()
@@ -68,10 +32,23 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GameOver()
+    public void GameWin()
     {
         if (zombiecount > 0) return;
-        Debug.Log("Gameover");
->>>>>>> 8532154 (24/12/2023 update fix)
+        Debug.Log("GameWin");
     }
+    public void GameOver()
+    {
+        Debug.Log("GameOver");
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("zombie"))
+        {
+            GameOver();
+        }
+    }
+
+
+}
 

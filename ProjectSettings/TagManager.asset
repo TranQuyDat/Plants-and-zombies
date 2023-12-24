@@ -13,7 +13,10 @@ TagManager:
   - posSun
   - flowerpot
   - slotmap
+<<<<<<< HEAD
   - GameOver
+=======
+>>>>>>> 90b0e3e (24/13/2023 update: flowerpot + slotmap + map3)
   layers:
   - Default
   - TransparentFX
