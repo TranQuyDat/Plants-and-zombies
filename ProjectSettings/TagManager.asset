@@ -11,6 +11,8 @@ TagManager:
   - shovel
   - boxshovel
   - posSun
+  - flowerpot
+  - slotmap
   layers:
   - Default
   - TransparentFX
@@ -48,6 +50,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: flowerpot
+    uniqueID: 3807049671
+    locked: 0
+  - name: tree
+    uniqueID: 3350348279
+    locked: 0
+  - name: zombies
+    uniqueID: 311843229
+    locked: 0
   - name: items
     uniqueID: 1516573549
+    locked: 0
+  - name: cursor
+    uniqueID: 811032087
     locked: 0

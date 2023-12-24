@@ -33,7 +33,7 @@ public class SpawnEnemiManager : MonoBehaviour
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-        if (!gameManager.GameStart) return;
+
         defaultSetting();
         InvokeRepeating("spawnZombies", timedelaySpawn, timedelaySpawn);
     }
@@ -64,6 +64,7 @@ public class SpawnEnemiManager : MonoBehaviour
     }
     public void spawnZombies()
     {
+        if (!gameManager.GameStart) return;
         if (levelnum>=0 && Cur_ZombiesCount > 0) // check so luong zombies cua moi wave
         {
             
@@ -79,5 +80,20 @@ public class SpawnEnemiManager : MonoBehaviour
         NextWave();
     }
 
-
+    public int getWavecount()
+    {
+        return curLevel.listwave.Count;
+    }
+    public int getAllzombiescount()
+    {
+        int sum = 0 ;
+        foreach(Level lv in Levels)
+        {
+            foreach ( wave w in lv.listwave)
+            {
+                sum += w.ZombiesCount;
+            }
+        }
+        return sum;
+    }
 }
