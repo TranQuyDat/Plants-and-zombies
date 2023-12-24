@@ -46,5 +46,13 @@ public class SunFlower : ActionOfTreeGetSun
         // Đảm bảo rằng đối tượng đến đúng vị trí cuối cùng
         targetTransform.position = targetPosition;
     }
-
+    public override void Hit(int damage)
+    {
+        Debug.Log("Bi can Bi Can");
+        hp -= damage;
+        if (hp <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }

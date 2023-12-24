@@ -5,4 +5,5 @@ using UnityEngine;
 public interface  AIaction 
 {
     public abstract void action();
+    public abstract void Hit(int damage);
 }
