@@ -58,4 +58,21 @@ public class ActionOfzombie : MonoBehaviour
         Debug.Log("Goi ham eat cool down");
         canEat = true;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("projectile"))
+        {
+            projectileController prj = collision.GetComponent<projectileController>();
+            hp = hp - (int)prj.damage;
+            dead();
+        }
+    
+    }
+
+    public void dead()
+    {
+        if (hp > 0) return;
+        Destroy(this.gameObject);
+    }
 }
