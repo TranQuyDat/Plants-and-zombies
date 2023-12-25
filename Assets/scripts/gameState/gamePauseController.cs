@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gamePauseController : MonoBehaviour
+{
+    public GameManager gameManager;
+    public void btn_resume()
+    {
+        gameManager.ischangeState = true;
+        gameManager.setGamestate(State.gameplay);
+    }
+
+    public void btn_restart()
+    {
+        gameManager.ischangeState = true;
+        gameManager.setGamestate(State.gameplay);
+        //set lai timeline
+        gameManager.playable.time = 0;
+        gameManager.playable.Play();
+    }
+
+    public void btn_QuitToMenu()
+    {
+        //chuyen ve main menu
+        gameManager.changeScene(Scene.Menu);
+    }
+}

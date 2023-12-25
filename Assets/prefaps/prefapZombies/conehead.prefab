@@ -12,7 +12,11 @@ GameObject:
   - component: {fileID: 6770789926169925641}
   - component: {fileID: 7609161641120083155}
   - component: {fileID: 6866597041352012346}
+<<<<<<< HEAD
   - component: {fileID: -5455730936215737721}
+=======
+  - component: {fileID: 3917177413060843950}
+>>>>>>> 2037074 (update)
   m_Layer: 6
   m_Name: conehead
   m_TagString: zombie
@@ -33,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6770789926169925641
 SpriteRenderer:
@@ -137,7 +141,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.1291132, y: 0.27917743}
@@ -153,7 +157,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.34790802, y: 0.55835485}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!114 &-5455730936215737721
+=======
+--- !u!114 &3917177413060843950
+>>>>>>> 2037074 (update)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,14 +170,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1536808113361810764}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 56e750afba70da04b8869143f1ab276e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.66
   hp: 15
+=======
+  m_Script: {fileID: 11500000, guid: fb9680b152587914c9b7642390205634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  hp: 0
+>>>>>>> 2037074 (update)
   range: 0
   damage: 1
   cooldown: 2.5
   plantMask:
     serializedVersion: 2
+<<<<<<< HEAD
     m_Bits: 0
+=======
+    m_Bits: 128
+>>>>>>> 2037074 (update)

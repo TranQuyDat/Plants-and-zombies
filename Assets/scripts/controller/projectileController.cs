@@ -29,4 +29,12 @@ public class projectileController : MonoBehaviour
         Destroy(this.gameObject);
         CancelInvoke("lifetime");
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("zombie"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
