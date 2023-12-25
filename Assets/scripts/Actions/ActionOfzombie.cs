@@ -12,7 +12,17 @@ public class ActionOfzombie : MonoBehaviour
     public LayerMask plantMask;
     private bool canWalk = true;
     private bool canEat = true;
+    public Animator myAnimator;
+    public void Start()
+    {
+        myAnimator = GetComponent<Animator>();
+    }
     public void Update()
+    {
+        onTriggerTheTree();
+
+    }
+    public void onTriggerTheTree()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, range, plantMask);
 
@@ -24,7 +34,7 @@ public class ActionOfzombie : MonoBehaviour
             Debug.Log("Da gap plant");
             // Zombie detected a plant, stop walking
             Eat(targetTree);
-            
+
         }
         else
         {
@@ -39,6 +49,7 @@ public class ActionOfzombie : MonoBehaviour
     }
     public void Walk()
     {
+        myAnimator.Play("zombieWalking");
         Vector2 pos = new Vector2(transform.position.x - speed * Time.deltaTime, transform.position.y);
         transform.position = pos;
     }
@@ -48,14 +59,15 @@ public class ActionOfzombie : MonoBehaviour
         if (!canEat)
             return;
         canEat = false;
+        myAnimator.Play("zombieEating");
         Debug.Log("Before invoking EatCooldown");
         Invoke("EatCooldown", cooldown);
+
         Debug.Log("After invoking EatCooldown");
         targetTree.Hit(damage);
     }
     public void EatCooldown()
     {
-        Debug.Log("Goi ham eat cool down");
         canEat = true;
     }
 }
