@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2723215680099664317}
   - component: {fileID: 9067158986940751862}
   - component: {fileID: -381184588798220026}
+  - component: {fileID: -5410603780585155729}
   m_Layer: 0
   m_Name: brickhead
   m_TagString: Untagged
@@ -71,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 311843229
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cf0afdd4f86c8aa439d1fb44fe020672, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -106,3 +107,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-5410603780585155729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539072946232951947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e750afba70da04b8869143f1ab276e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  hp: 10
+  range: 0
+  damage: 1
+  cooldown: 2.5
+  plantMask:
+    serializedVersion: 2
+    m_Bits: 0
+  myAnimator: {fileID: 0}
