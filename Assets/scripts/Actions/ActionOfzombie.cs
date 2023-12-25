@@ -19,10 +19,10 @@ public class ActionOfzombie : MonoBehaviour
     }
     public void Update()
     {
-        onTriggerTheTree();
+        onCollideTheTree();
 
     }
-    public void onTriggerTheTree()
+    public void onCollideTheTree()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, range, plantMask);
 
