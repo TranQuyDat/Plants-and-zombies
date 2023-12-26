@@ -21,33 +21,35 @@ public enum State
 public class GameManager : MonoBehaviour
 {
     public PointsManager pointsManager;
+    public boardchooseTree boardchooseTree;
     public SelectedCusor cursor;
-    public bool GameStart;
+    public progressBar progressBar;
     public selectBarController selectBarController;
     public SpawnEnemiManager SpawnEnemi;
+    public LawnMowerManager lawnMowerManager;
+    public TreeManager treeManager;
     int zombiecount;
     public State  state;
-
+    public bool GameStart;
     [Header("******gameState**********")]
     public gamePlayController gamePlayctrl;
     public gameOverController gameOverctrl;
     public gamePauseController gamePausectrl;
     public gameWinController gameWinctrl;
     public bool ischangeState;
-
-    [HideInInspector] public PlayableDirector playable;
     public Scene nextScene;
+    [HideInInspector] public PlayableDirector playable;
+    
     private void Start()
     {
         playable = this.GetComponent<PlayableDirector>();
-        zombiecount = SpawnEnemi.getAllzombiescount();
-        GameStart = false;
-        
+        ischangeState = true;
+        state = State.gameplay;
+        gameStart();
     }
     private void Update()
     {
         updateGamestate();
-        updateZombiescount();
         GameWin();
     }
     public void updateGamestate()
@@ -61,26 +63,27 @@ public class GameManager : MonoBehaviour
     }
     public void updateZombiescount()
     {
-        if (zombiecount != SpawnEnemi.getAllzombiescount())
-        {
             zombiecount = SpawnEnemi.getAllzombiescount();
-        }
     }
 
     public void GameWin()
     {
+        Debug.Log(zombiecount);
         if (zombiecount > 0) return;
+        ischangeState = true;
         state = State.gamewin;
     }
 
     public void GameOver()
     {
+        ischangeState = true;
         state = State.gameover;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("zombie"))
         {
+            Debug.Log("game over");
             GameOver();
         }
     }
@@ -96,5 +99,25 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(nameScene.ToString());
     }
 
+    public void gameStart()
+    {
+        boardchooseTree.isReStart = true;
+        progressBar.fillbar.value = 0;
+        
+        SpawnEnemi.destroyAllzombies();
+        treeManager.destroyAllTree();
+        pointsManager.destroyAllSun();
+        
+        pointsManager.cur_points = 200;
+        GameStart = false;
+        
+        lawnMowerManager.setDf_LawnMowers();
+        updateZombiescount();
+    }
+
+    public void UpdateAliveZB(int num)
+    {
+        zombiecount += num;
+    }
 }
 

@@ -12,6 +12,11 @@ public class ActionOfzombie : MonoBehaviour
     public LayerMask plantMask;
     private bool canWalk = true;
     private bool canEat = true;
+    public GameManager gameManager;
+    private void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
     public void Update()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, range, plantMask);
@@ -74,5 +79,6 @@ public class ActionOfzombie : MonoBehaviour
     {
         if (hp > 0) return;
         Destroy(this.gameObject);
+        gameManager.UpdateAliveZB(-1);
     }
 }

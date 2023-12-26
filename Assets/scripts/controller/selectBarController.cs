@@ -4,11 +4,22 @@ using UnityEngine;
 
 public class selectBarController : MonoBehaviour
 {
-    public List<GameObject> listselectbar;
-    public GameObject[] listslot;
+    public List<GameObject> listselectbar;//list chua cac prefap lay tu board
+    public GameObject[] listslot;// cac slot de lam tranform cho treeCard
+    public List<GameObject> listTreeCard; // list chua cac prefap_treecard trong slot
     private void Update()
     {
         updateSelectbar();
+    }
+
+    public void setDF()
+    {
+        listselectbar.Clear();
+        foreach(GameObject treecard in listTreeCard)
+        {
+            Destroy(treecard);
+        }
+        listTreeCard.Clear();
     }
     public void updateSelectbar()
     {
@@ -17,7 +28,8 @@ public class selectBarController : MonoBehaviour
         {
             if (listselectbar.Count == i) return;
             if (listslot[i].transform.childCount > 0) continue;
-            Instantiate(listselectbar[i], listslot[i].transform);
+            GameObject treecard =  Instantiate(listselectbar[i], listslot[i].transform);
+            listTreeCard.Add(treecard);
         }
     }
 }

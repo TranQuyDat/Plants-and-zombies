@@ -12,6 +12,7 @@ public class gameWinController : MonoBehaviour
         gameManager.setGamestate(State.gameplay);
         gameManager.playable.time = 0;
         gameManager.playable.Play();
+        gameManager.gameStart();
     }
 
     public void btn_next()

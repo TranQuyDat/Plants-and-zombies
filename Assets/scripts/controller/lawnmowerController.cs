@@ -6,8 +6,14 @@ public class lawnmowerController : MonoBehaviour
 {
     public float speed;
     bool ismoving;
+    Vector2 posStart;
+    private void Awake()
+    {
+        posStart = this.transform.position;
+    }
     private void Start()
     {
+        posStart = this.transform.position;
         ismoving = false;
     }
     private void Update()
@@ -35,11 +41,17 @@ public class lawnmowerController : MonoBehaviour
         }
     }
 
+    public void setDefault() 
+    {
+        ismoving = false;
+        this.transform.position = posStart;
+    }
+
     public void dead()
     {
         if (transform.position.x > 15)
         {
-            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
         }
     }
 }
