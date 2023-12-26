@@ -6,12 +6,14 @@ public class slotTreeMap : MonoBehaviour
 {
     public GameObject ShadownTree;
     public string SlotType;
+    public GameManager gameManager;
     SelectedCusor selectedCusor;
 
     bool isnotEmty;
     GameObject curTree;
     private void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         isnotEmty = false;
         selectedCusor = GameObject.FindObjectOfType<SelectedCusor>();
     }
@@ -76,6 +78,7 @@ public class slotTreeMap : MonoBehaviour
             isnotEmty = true;
             curTree = Instantiate(selectedCusor.cur_tree,ShadownTree.transform.position
                 ,Quaternion.identity,this.transform);
+            gameManager.treeManager.listTree.Add(curTree);
             selectedCusor.cur_tree = null;
             curTree.transform.localScale = ShadownTree.transform.localScale;
             curTree.GetComponent<SpriteRenderer>().color = Color.white;

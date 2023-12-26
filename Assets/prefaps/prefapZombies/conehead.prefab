@@ -37,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6770789926169925641
 SpriteRenderer:
@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 311843229
-  m_SortingLayer: 3
+  m_SortingLayerID: -944619017
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1386330499, guid: 009b7c979db4f28449b8f6a4492013bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -141,7 +141,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.1291132, y: 0.27917743}
@@ -192,4 +192,8 @@ MonoBehaviour:
     m_Bits: 0
 =======
     m_Bits: 128
+<<<<<<< HEAD
 >>>>>>> 2037074 (update)
+=======
+  gameManager: {fileID: 0}
+>>>>>>> 24d24cc (27/12/2023 update: game Over+win+play+pause +treeManager + LawnMoverManager)

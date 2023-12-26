@@ -15,24 +15,34 @@ public class boardchooseTree : MonoBehaviour
 
     PlayableDirector playable;
     GameObject cur_selectTree;
-    
+    [HideInInspector] public bool isReStart;
     private void Start()
     {
+        isReStart = true;
         playable = gameManager.gameObject.
             GetComponent<PlayableDirector>();
-        playable.Pause();
+        
     }
 
     private void Update()
     {
+        if (isReStart)
+        {
+            playable.Pause();// khi board active thi pause lai 
+            btn_remove(); // neu co item tren bar thi remove
+            gameManager.selectBarController.setDF();
+            isReStart = false;
+        }
         if (gameManager.GameStart)
         {
             this.gameObject.SetActive(false);
         }
     }
+
     public void btn_Add()
     {
-        if (cur_selectTree == null) return;
+        if (cur_selectTree == null || 
+            cur_selectTree.GetComponent<cell_boardselectTree>().data == null) return;
         cell_boardselectTree cell = cur_selectTree.GetComponent<cell_boardselectTree>();
         for (int i =0; i<listslotCard_view.Count;i++)
         {

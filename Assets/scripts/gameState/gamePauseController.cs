@@ -18,6 +18,7 @@ public class gamePauseController : MonoBehaviour
         //set lai timeline
         gameManager.playable.time = 0;
         gameManager.playable.Play();
+        gameManager.gameStart();
     }
 
     public void btn_QuitToMenu()

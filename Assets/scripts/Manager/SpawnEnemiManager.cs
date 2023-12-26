@@ -24,12 +24,15 @@ public class SpawnEnemiManager : MonoBehaviour
 {
     public GameManager gameManager;
     public List<Transform> listPosSpawn;
+    public List<GameObject> listZombiesSpawned;
     [SerializeField] private List<Level> Levels ;
     public float timedelaySpawn;
-    Level curLevel;
-    int levelnum, wavenum;
     public bool nextWave;
+    public Transform parentZom;
+
+    int levelnum, wavenum;
     int Cur_ZombiesCount;
+    Level curLevel;
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -69,9 +72,12 @@ public class SpawnEnemiManager : MonoBehaviour
         {
             
             GameObject randomZombie = curLevel.cur_wave.zombiesType[
-                Random.Range(0, curLevel.cur_wave.zombiesType.Length)]; // lay random type zombies
-            Transform randomSpawn =listPosSpawn[ Random.Range(0, listPosSpawn.Count) ]; // lay random pos spawn zombies
-            Instantiate(randomZombie,randomSpawn.position,Quaternion.identity);//sinh ra zombies
+                Random.Range(0, curLevel.cur_wave.zombiesType.Length-1)]; // lay random type zombies
+            Transform randomSpawn =listPosSpawn[ Random.Range(0, listPosSpawn.Count-1) ]; // lay random pos spawn zombies
+            GameObject zombie = Instantiate(randomZombie,
+                randomSpawn.position,Quaternion.identity, parentZom);//sinh ra zombies
+
+            listZombiesSpawned.Add(zombie);
             Cur_ZombiesCount--;
             return;
         }
@@ -95,5 +101,14 @@ public class SpawnEnemiManager : MonoBehaviour
             }
         }
         return sum;
+    }
+    public void destroyAllzombies()
+    {
+        foreach (GameObject zom in listZombiesSpawned) 
+        {
+            Destroy(zom);
+        }
+        listPosSpawn.Clear();
+           
     }
 }
