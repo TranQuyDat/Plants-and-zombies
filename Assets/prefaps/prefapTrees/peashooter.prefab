@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6063556592422370433}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: posshoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8606156218941228476}
   - component: {fileID: 889563232655484451}
   - component: {fileID: 7452471514228758982}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: peashooter
   m_TagString: tree
   m_Icon: {fileID: 0}

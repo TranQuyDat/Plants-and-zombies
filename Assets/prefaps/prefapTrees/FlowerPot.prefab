@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7656930582084538765}
   - component: {fileID: 2189987441152643986}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: shadowTree
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
@@ -97,9 +97,9 @@ GameObject:
   - component: {fileID: 6329868236571491426}
   - component: {fileID: 2720076656031259948}
   - component: {fileID: 2064143264858744408}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: FlowerPot
-  m_TagString: tree
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
