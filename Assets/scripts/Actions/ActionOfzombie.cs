@@ -12,17 +12,14 @@ public class ActionOfzombie : MonoBehaviour
     public LayerMask plantMask;
     private bool canWalk = true;
     private bool canEat = true;
-<<<<<<< HEAD
     public Animator myAnimator;
+    public GameManager gameManager;
     public void Start()
     {
-        myAnimator = GetComponent<Animator>();
-=======
-    public GameManager gameManager;
-    private void Start()
-    {
         gameManager = FindObjectOfType<GameManager>();
->>>>>>> 24d24cc (27/12/2023 update: game Over+win+play+pause +treeManager + LawnMoverManager)
+        myAnimator = GetComponent<Animator>();
+    
+
     }
     public void Update()
     {
