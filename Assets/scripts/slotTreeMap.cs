@@ -40,7 +40,7 @@ public class slotTreeMap : MonoBehaviour
             showShadowTree();
         }
     }
-    public void showShadowNotTree()
+    public void showShadowNotTree() // khi slot ko phai dat thi kkong trong cay dc
     {
         if (selectedCusor.cur_tree.CompareTag("tree")) return;
         if (selectedCusor.cur_tree != null && !ShadownTree.active)

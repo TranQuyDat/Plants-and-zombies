@@ -5,8 +5,10 @@ using UnityEngine;
 public class SunFlower : ActionOfTreeGetSun
 {
     // Start is called before the first frame update
+    GameManager gameManager;
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
          InvokeRepeating("action", timeDelayAct, timeDelayAct);
     }
 
@@ -17,6 +19,7 @@ public class SunFlower : ActionOfTreeGetSun
     }
     public override void action()
     {
+        if (!gameManager.GameStart) return;
         GameObject mySun = Instantiate(prefapSun, posSpawnSun.position, Quaternion.identity);
         SpriteRenderer sunSpriteRenderer = mySun.GetComponent<SpriteRenderer>();
         if (sunSpriteRenderer != null)

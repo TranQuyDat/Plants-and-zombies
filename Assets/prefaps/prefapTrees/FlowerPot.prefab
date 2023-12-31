@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7656930582084538765}
   - component: {fileID: 2189987441152643986}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: shadowTree
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
@@ -96,10 +96,11 @@ GameObject:
   - component: {fileID: 8424928204257751884}
   - component: {fileID: 6329868236571491426}
   - component: {fileID: 2720076656031259948}
-  - component: {fileID: 2064143264858744408}
-  m_Layer: 0
+  - component: {fileID: 3007502845454982680}
+  - component: {fileID: 3796340573005357521}
+  m_Layer: 7
   m_Name: FlowerPot
-  m_TagString: Untagged
+  m_TagString: flowerpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,8 +208,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadownTree: {fileID: 5514611129590986445}
   SlotType: ground
---- !u!58 &2064143264858744408
-CircleCollider2D:
+  gameManager: {fileID: 0}
+--- !u!61 &3007502845454982680
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -239,6 +241,29 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0035866976, y: -0.12992664}
+  m_Offset: {x: -0.0029619038, y: -0.032078877}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.421875, y: 0.484375}
+    newSize: {x: 0.27, y: 0.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.16436322
+  m_Size: {x: 0.44109988, y: 0.42536834}
+  m_EdgeRadius: 0
+--- !u!114 &3796340573005357521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6363793999857255935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51eb3de3825896b4392af6e58e00785e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 5

@@ -11,20 +11,21 @@ TagManager:
   - shovel
   - boxshovel
   - posSun
-  - flowerpot
   - slotmap
   - projectile
   - GameOver
+  - lawnmower
+  - flowerpot
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - lawnmower
   - Water
   - UI
   - zombie
   - tree
-  - 
+  - stepZombie
   - 
   - 
   - 

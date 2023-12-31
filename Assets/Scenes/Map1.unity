@@ -2306,7 +2306,7 @@ MonoBehaviour:
   - {fileID: 1033625583}
   - {fileID: 1566451311}
   parentSun: {fileID: 71469363}
-  cur_points: 250
+  cur_points: 1000
   txt_point: {fileID: 6599876447640961068}
   listSun: []
 --- !u!114 &981835716
