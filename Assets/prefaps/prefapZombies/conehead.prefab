@@ -13,10 +13,14 @@ GameObject:
   - component: {fileID: 7609161641120083155}
   - component: {fileID: 6866597041352012346}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: -5455730936215737721}
 =======
   - component: {fileID: 3917177413060843950}
 >>>>>>> 2037074 (update)
+=======
+  - component: {fileID: 3917177413060843950}
+>>>>>>> 24d24cc5485246d0f80c626665405529299e2875
   m_Layer: 6
   m_Name: conehead
   m_TagString: zombie
@@ -158,10 +162,14 @@ BoxCollider2D:
   m_Size: {x: 0.34790802, y: 0.55835485}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &-5455730936215737721
 =======
 --- !u!114 &3917177413060843950
 >>>>>>> 2037074 (update)
+=======
+--- !u!114 &3917177413060843950
+>>>>>>> 24d24cc5485246d0f80c626665405529299e2875
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,23 +179,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 56e750afba70da04b8869143f1ab276e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.66
   hp: 15
 =======
+=======
+>>>>>>> 24d24cc5485246d0f80c626665405529299e2875
   m_Script: {fileID: 11500000, guid: fb9680b152587914c9b7642390205634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
   hp: 0
+<<<<<<< HEAD
 >>>>>>> 2037074 (update)
+=======
+>>>>>>> 24d24cc5485246d0f80c626665405529299e2875
   range: 0
   damage: 1
   cooldown: 2.5
   plantMask:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Bits: 0
 =======
@@ -197,3 +212,7 @@ MonoBehaviour:
 =======
   gameManager: {fileID: 0}
 >>>>>>> 24d24cc (27/12/2023 update: game Over+win+play+pause +treeManager + LawnMoverManager)
+=======
+    m_Bits: 128
+  gameManager: {fileID: 0}
+>>>>>>> 24d24cc5485246d0f80c626665405529299e2875
