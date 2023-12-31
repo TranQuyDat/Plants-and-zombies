@@ -108,7 +108,7 @@ public class SpawnEnemiManager : MonoBehaviour
         {
             Destroy(zom);
         }
-        listPosSpawn.Clear();
+        listZombiesSpawned.Clear();
            
     }
 }
