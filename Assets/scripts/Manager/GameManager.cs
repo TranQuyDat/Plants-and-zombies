@@ -68,8 +68,9 @@ public class GameManager : MonoBehaviour
 
     public void GameWin()
     {
-        //Debug.Log(zombiecount);
+        Debug.Log(zombiecount);
         if (zombiecount > 0) return;
+        GameStart = false;
         ischangeState = true;
         state = State.gamewin;
     }
@@ -108,7 +109,7 @@ public class GameManager : MonoBehaviour
         treeManager.destroyAllTree();
         pointsManager.destroyAllSun();
         
-        pointsManager.cur_points = 200;
+        pointsManager.cur_points = 200;//diem khi bat dau choi
         GameStart = false;
         
         lawnMowerManager.setDf_LawnMowers();

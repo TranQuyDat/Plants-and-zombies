@@ -16,7 +16,11 @@ public class Sun : MonoBehaviour
     }
     private void Update()
     {
-        if (!gameManager.GameStart) return;
+        if (!gameManager.GameStart)
+        {
+            this.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
+            return;
+        }
         StartCoroutine(movetoAndaddpoint());
     }
     public void addpoint()
@@ -28,6 +32,7 @@ public class Sun : MonoBehaviour
 
     IEnumerator movetoAndaddpoint()
     {
+        this.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0.01f;
         yield return new WaitForSeconds(5f);
         MoveTo();
         yield return new WaitUntil(()=> isaddpoint);

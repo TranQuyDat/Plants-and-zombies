@@ -36,7 +36,6 @@ public class lawnmowerController : MonoBehaviour
     {
         if (collision.CompareTag("zombie"))
         {
-            Destroy(collision.gameObject);
             ismoving = true;
         }
     }

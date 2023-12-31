@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 2220883990649432138}
   - component: {fileID: 4426485946479009402}
   - component: {fileID: 7045170430499023074}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: lawnmower
-  m_TagString: Untagged
+  m_TagString: lawnmower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

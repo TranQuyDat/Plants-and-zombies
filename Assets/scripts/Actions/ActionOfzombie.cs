@@ -31,7 +31,7 @@ public class ActionOfzombie : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, range, plantMask);
 
-        if (hit.collider && hit.collider.CompareTag("tree"))
+        if (hit.collider && (hit.collider.CompareTag("tree") || hit.collider.CompareTag("flowerpot")) )
         {
             AIaction targetTree = hit.collider.GetComponent<AIaction>();
             canWalk = false;
@@ -84,13 +84,19 @@ public class ActionOfzombie : MonoBehaviour
             hp = hp - (int)prj.damage;
             dead();
         }
+        if (collision.CompareTag("lawnmower"))
+        {
+            hp = 0;
+            dead();
+        }
     
     }
 
     public void dead()
     {
         if (hp > 0) return;
-        Destroy(this.gameObject);
         gameManager.UpdateAliveZB(-1);
+        Destroy(this.gameObject);
+        
     }
 }
