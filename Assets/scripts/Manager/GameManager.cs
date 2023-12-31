@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
 
     public void GameWin()
     {
-        Debug.Log(zombiecount);
+        //Debug.Log(zombiecount);
         if (zombiecount > 0) return;
         ischangeState = true;
         state = State.gamewin;

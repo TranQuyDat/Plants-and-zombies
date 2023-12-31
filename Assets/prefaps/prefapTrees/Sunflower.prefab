@@ -12,16 +12,8 @@ GameObject:
   - component: {fileID: 7550187351183902573}
   - component: {fileID: -1266212966419516082}
   - component: {fileID: 5731041924070688130}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   - component: {fileID: 3766274223338344340}
   - component: {fileID: -187270586628926701}
->>>>>>> 2037074 (update)
-=======
-  - component: {fileID: 3766274223338344340}
-  - component: {fileID: -187270586628926701}
->>>>>>> 24d24cc5485246d0f80c626665405529299e2875
   m_Layer: 7
   m_Name: Sunflower
   m_TagString: tree
