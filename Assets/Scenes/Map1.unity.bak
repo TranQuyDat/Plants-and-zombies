@@ -17681,4 +17681,8 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.09698486, y: 481.88}
   m_SizeDelta: {x: 0.20500183, y: -963.75}
+<<<<<<< HEAD
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+  m_Pivot: {x: 0.5, y: 0.5}
+>>>>>>> 24d24cc5485246d0f80c626665405529299e2875
