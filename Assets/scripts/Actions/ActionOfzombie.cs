@@ -13,9 +13,14 @@ public class ActionOfzombie : MonoBehaviour
     private bool canWalk = true;
     private bool canEat = true;
     public Animator myAnimator;
+    public GameManager gameManager;
     public void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         myAnimator = GetComponent<Animator>();
+    
+
+
     }
     public void Update()
     {
@@ -69,5 +74,23 @@ public class ActionOfzombie : MonoBehaviour
     public void EatCooldown()
     {
         canEat = true;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("projectile"))
+        {
+            projectileController prj = collision.GetComponent<projectileController>();
+            hp = hp - (int)prj.damage;
+            dead();
+        }
+    
+    }
+
+    public void dead()
+    {
+        if (hp > 0) return;
+        Destroy(this.gameObject);
+        gameManager.UpdateAliveZB(-1);
     }
 }

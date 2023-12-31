@@ -13,6 +13,8 @@ TagManager:
   - posSun
   - flowerpot
   - slotmap
+  - projectile
+  - GameOver
   layers:
   - Default
   - TransparentFX

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6063556592422370433}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: posshoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8606156218941228476}
   - component: {fileID: 889563232655484451}
   - component: {fileID: 7452471514228758982}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: peashooter
   m_TagString: tree
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ Transform:
   m_Children:
   - {fileID: 6063556592422370433}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5667208885356912851
 Animator:
@@ -193,7 +193,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.023616076, y: 0.011334598}
+  m_Offset: {x: -0.023616076, y: -0.016560018}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.2}
@@ -204,5 +204,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5350473, y: 0.5542227}
+  m_Size: {x: 0.5350473, y: 0.4909948}
   m_EdgeRadius: 0
