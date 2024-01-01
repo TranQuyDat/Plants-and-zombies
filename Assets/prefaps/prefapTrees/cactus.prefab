@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b80ac7c1cc212be4aacfb19bb34ae5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 0
+  hp: 10
   timeDelayAct: 1
   projectile: {fileID: 5879804718095787186, guid: 7a4c2cf38085bf7488e905d07dd78508, type: 3}
   posshoot: {fileID: 8296900358445063204}

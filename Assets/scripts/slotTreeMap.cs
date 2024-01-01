@@ -72,6 +72,7 @@ public class slotTreeMap : MonoBehaviour
     private void OnMouseDown()
     {
         //Debug.Log("mouse down " + this.name);
+        if (selectedCusor.cur_tree != null && selectedCusor.cur_tree.CompareTag("tree") && SlotType != "ground") return;
         if(selectedCusor.cur_tree != null && isnotEmty == false && 
             !selectedCusor.cur_tree.CompareTag(this.tag))
         {

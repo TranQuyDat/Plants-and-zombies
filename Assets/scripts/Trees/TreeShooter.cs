@@ -16,13 +16,7 @@ public  class TreeShooter : ActionOfTreeShooter
         InvokeRepeating("checkingzom", 1f, 1f);
 
     }
-    private void OnMouseOver()
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && selectedCusor.cur_Item!=null)
-        {
-            treeDead();
-        }
-    }
+
     public override void action()
     {
         if (SeeingZom == false) return;

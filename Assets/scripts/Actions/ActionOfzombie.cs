@@ -78,19 +78,16 @@ public class ActionOfzombie : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.tag);
         if (collision.CompareTag("projectile"))
         {
             projectileController prj = collision.GetComponent<projectileController>();
             hp = hp - (int)prj.damage;
             dead();
         }
-        if (collision.CompareTag("lawnmower"))
-        {
-            hp = 0;
-            dead();
-        }
     
     }
+
 
     public void dead()
     {
