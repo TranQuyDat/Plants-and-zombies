@@ -43,6 +43,7 @@ public class SpawnEnemiManager : MonoBehaviour
 
     public void defaultSetting()
     {
+        Cur_ZombiesCount = 0;
         levelnum = 0;
         wavenum = -1;
         curLevel = Levels[levelnum];

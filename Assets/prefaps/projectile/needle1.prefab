@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4081434036638234253}
   - component: {fileID: 1713139294911354773}
   - component: {fileID: 6103070542533622423}
+  - component: {fileID: -6558503869633370791}
   m_Layer: 0
   m_Name: needle1
   m_TagString: projectile
@@ -107,8 +108,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 811032087
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 99786bf7d5581744faecaa1f14daddc5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -135,3 +136,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   damage: 2
+--- !u!50 &-6558503869633370791
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5879804718095787186}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

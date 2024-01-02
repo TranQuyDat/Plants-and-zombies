@@ -20,14 +20,16 @@ public enum State
 }
 public class GameManager : MonoBehaviour
 {
-    public PointsManager pointsManager;
+    public selectBarController selectBarController;
     public boardchooseTree boardchooseTree;
     public SelectedCusor cursor;
     public progressBar progressBar;
-    public selectBarController selectBarController;
-    public SpawnEnemiManager SpawnEnemi;
     public LawnMowerManager lawnMowerManager;
+
+    public PointsManager pointsManager;
+    public SpawnEnemiManager SpawnEnemi;
     public TreeManager treeManager;
+
     int zombiecount;
     public State  state;
     public bool GameStart;
@@ -39,12 +41,13 @@ public class GameManager : MonoBehaviour
     public bool ischangeState;
     public Scene nextScene;
     [HideInInspector] public PlayableDirector playable;
-    
+
     private void Start()
     {
+        state = State.gameplay;
         playable = this.GetComponent<PlayableDirector>();
         ischangeState = true;
-        state = State.gameplay;
+        
         gameStart();
     }
     private void Update()
@@ -68,7 +71,7 @@ public class GameManager : MonoBehaviour
 
     public void GameWin()
     {
-        Debug.Log(zombiecount);
+        //Debug.Log(zombiecount);
         if (zombiecount > 0) return;
         GameStart = false;
         ischangeState = true;
@@ -84,7 +87,7 @@ public class GameManager : MonoBehaviour
     {
         if (collision.CompareTag("zombie"))
         {
-            Debug.Log("game over");
+            //Debug.Log("game over");
             GameOver();
         }
     }
@@ -106,6 +109,7 @@ public class GameManager : MonoBehaviour
         progressBar.fillbar.value = 0;
         
         SpawnEnemi.destroyAllzombies();
+        SpawnEnemi.defaultSetting();
         treeManager.destroyAllTree();
         pointsManager.destroyAllSun();
         
@@ -120,5 +124,7 @@ public class GameManager : MonoBehaviour
     {
         zombiecount += num;
     }
+
+   
 }
 

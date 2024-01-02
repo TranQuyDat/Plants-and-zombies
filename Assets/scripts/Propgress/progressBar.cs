@@ -9,10 +9,15 @@ public class progressBar : MonoBehaviour
     public float speed; 
     public GameObject wavetrigger;
     public Transform trigger;
-    public SpawnEnemiManager SpawnEnemi;
+    public GameManager gameManager;
     public int curWavecount;
-
+    public SpawnEnemiManager SpawnEnemi;
     public List<GameObject> listtriggeractive;
+    private void Awake()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+        SpawnEnemi = gameManager.SpawnEnemi;
+    }
     private void Start()
     {
         fillbar.value = 0;
