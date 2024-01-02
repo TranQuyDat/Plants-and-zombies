@@ -5,7 +5,7 @@ using UnityEngine;
 public class ActionOfzombie : MonoBehaviour
 {
     public float speed;
-    public int hp;
+    public float hp;
     public int range;
     public int damage;
     public float cooldown;
@@ -14,18 +14,19 @@ public class ActionOfzombie : MonoBehaviour
     private bool canEat = true;
     public Animator myAnimator;
     public GameManager gameManager;
+    float maxhp;
     public void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
         myAnimator = GetComponent<Animator>();
-    
-
+        maxhp = hp;
+        myAnimator.SetFloat("hp", hp/ maxhp);
 
     }
     public void Update()
     {
         onCollideTheTree();
-
+        
     }
     public void onCollideTheTree()
     {
@@ -54,7 +55,8 @@ public class ActionOfzombie : MonoBehaviour
     }
     public void Walk()
     {
-        myAnimator.Play("zombieWalking");
+        myAnimator.SetBool("walk",true);
+        myAnimator.SetBool("eat",false);
         Vector2 pos = new Vector2(transform.position.x - speed * Time.deltaTime, transform.position.y);
         transform.position = pos;
     }
@@ -64,7 +66,8 @@ public class ActionOfzombie : MonoBehaviour
         if (!canEat)
             return;
         canEat = false;
-        myAnimator.Play("zombieEating");
+        myAnimator.SetBool("walk", false);
+        myAnimator.SetBool("eat", true);
         Debug.Log("Before invoking EatCooldown");
         Invoke("EatCooldown", cooldown);
 
@@ -83,6 +86,7 @@ public class ActionOfzombie : MonoBehaviour
         {
             projectileController prj = collision.GetComponent<projectileController>();
             hp = hp - (int)prj.damage;
+            myAnimator.SetFloat("hp", hp/maxhp);
             dead();
         }
     
