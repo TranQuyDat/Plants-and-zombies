@@ -80,6 +80,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        GameStart = false;
         ischangeState = true;
         state = State.gameover;
     }

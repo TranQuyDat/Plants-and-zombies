@@ -19,8 +19,9 @@ public class SunFlower : ActionOfTreeGetSun
     }
     public override void action()
     {
-        if (!gameManager.GameStart) return;
+        if (!gameManager.GameStart || posSpawnSun == null) return;
         GameObject mySun = Instantiate(prefapSun, posSpawnSun.position, Quaternion.identity);
+        gameManager.pointsManager.listSun.Add(mySun);
         SpriteRenderer sunSpriteRenderer = mySun.GetComponent<SpriteRenderer>();
         if (sunSpriteRenderer != null)
         {
@@ -31,10 +32,12 @@ public class SunFlower : ActionOfTreeGetSun
         {
             sunRigidbody.gravityScale = 0;
         }
+        if (mySun == null ) return;
         StartCoroutine(DropToYPos(mySun.transform, posSpawnSun.position.y - 0.5f, 1f));
     }
     IEnumerator DropToYPos(Transform targetTransform, float targetY, float duration)
     {
+        
         float elapsedTime = 0f;
         Vector3 initialPosition = targetTransform.position;
         Vector3 targetPosition = new Vector3(initialPosition.x, targetY, initialPosition.z);

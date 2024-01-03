@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: zombieEatingd
+  m_Name: coneheadzombieEatingd
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,17 +22,17 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 21300000, guid: e8f6d007ff1f5014a8773ca190bacbd1, type: 3}
-    - time: 0.1
-      value: {fileID: 21300000, guid: e336b499b59242844849c111fc16dc23, type: 3}
     - time: 0.2
-      value: {fileID: 21300000, guid: f8aac9fef62596a41a43543f85d5fdeb, type: 3}
-    - time: 0.3
-      value: {fileID: 21300000, guid: ed667e067b8f8744ab3d9a74b15524ad, type: 3}
-    - time: 0.4
-      value: {fileID: 21300000, guid: 8729d36d6769dde46b704fc5915f9be9, type: 3}
+      value: {fileID: 21300000, guid: e336b499b59242844849c111fc16dc23, type: 3}
     - time: 0.5
+      value: {fileID: 21300000, guid: f8aac9fef62596a41a43543f85d5fdeb, type: 3}
+    - time: 0.7
+      value: {fileID: 21300000, guid: ed667e067b8f8744ab3d9a74b15524ad, type: 3}
+    - time: 0.9
+      value: {fileID: 21300000, guid: 8729d36d6769dde46b704fc5915f9be9, type: 3}
+    - time: 1.2
       value: {fileID: 21300000, guid: 94f5bca87095d474381677987a2f2f69, type: 3}
-    - time: 0.6
+    - time: 1.4
       value: {fileID: 21300000, guid: 70b9f199ef8b6174c936d94c5245e3ab, type: 3}
     attribute: m_Sprite
     path: 
@@ -68,7 +68,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.70000005
+    m_StopTime: 1.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

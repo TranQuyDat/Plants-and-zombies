@@ -7,11 +7,12 @@ public class projectileController : MonoBehaviour
 
     public float speed;
     public float damage;
-
+    public Animator animator;
     float timelife;
     // Start is called before the first frame update
     void Start()
     {
+        animator = FindObjectOfType<Animator>();
         timelife = Random.Range(5, 7);
     }
 
@@ -30,11 +31,23 @@ public class projectileController : MonoBehaviour
         CancelInvoke("lifetime");
     }
 
+ 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("zombie"))
         {
-            Destroy(this.gameObject);
+            SpriteRenderer sprite =  collision.GetComponent<SpriteRenderer>();
+            sprite.color = Color.red;
+            StartCoroutine(destroyprjt(sprite));
         }
+    }
+    
+    IEnumerator destroyprjt(SpriteRenderer sprite)
+    {
+        animator.Play("effectshooter");
+        yield return new WaitForSeconds(1f);
+        Destroy(this.gameObject);
+
+        if(sprite != null) sprite.color = Color.white;
     }
 }

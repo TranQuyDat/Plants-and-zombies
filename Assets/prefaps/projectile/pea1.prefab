@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4503882595095667086}
   - component: {fileID: 8027071022120934153}
   - component: {fileID: -8713996714711275470}
+  - component: {fileID: 1458727608790998497}
   m_Layer: 0
   m_Name: pea1
   m_TagString: projectile
@@ -33,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7911337604998900388
 SpriteRenderer:
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -944619017
-  m_SortingLayer: 2
+  m_SortingLayerID: -2063565691
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 823b4e2be2eb75d4290dc2e4b2648ef7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -101,6 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   damage: 1
+  animator: {fileID: 0}
 --- !u!58 &8027071022120934153
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -163,3 +165,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1458727608790998497
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573342366153085428}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: de63fa5966dde72498489835754f84d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
