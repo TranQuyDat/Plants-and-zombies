@@ -130,11 +130,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tree: {fileID: 6363793999857255935, guid: ef6fe40f1f6cbfc42b02651e807dc935, type: 3}
+  TreeAc: {fileID: 3796340573005357521, guid: ef6fe40f1f6cbfc42b02651e807dc935, type: 3}
   mask: {fileID: 8866284425808930776}
-  price: 25
   timeWaitcardActive: 5
   cardactive: {fileID: 1223687964, guid: 9972f825b4bfb8e40bc0afc58efdd838, type: 3}
   cardnotactive: {fileID: 2130337632, guid: 9972f825b4bfb8e40bc0afc58efdd838, type: 3}
+  price: 25
+  describe: FlowerPot is a plant pot that allows you to place plants on it, suitable
+    for maps without soil
 --- !u!222 &7069524550751463176
 CanvasRenderer:
   m_ObjectHideFlags: 0

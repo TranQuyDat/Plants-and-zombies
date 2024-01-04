@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class projectileController : MonoBehaviour
 {
-
+    public GameManager gameManager;
     public float speed;
     public float damage;
     public Animator animator;
@@ -12,6 +12,7 @@ public class projectileController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         animator = FindObjectOfType<Animator>();
         timelife = Random.Range(5, 7);
     }
@@ -36,18 +37,10 @@ public class projectileController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("zombie"))
         {
-            SpriteRenderer sprite =  collision.GetComponent<SpriteRenderer>();
-            sprite.color = Color.red;
-            StartCoroutine(destroyprjt(sprite));
+            gameManager.particleManager.getParticleHitFx(this.transform.position);
+            Destroy(this.gameObject);
         }
     }
     
-    IEnumerator destroyprjt(SpriteRenderer sprite)
-    {
-        animator.Play("effectshooter");
-        yield return new WaitForSeconds(1f);
-        Destroy(this.gameObject);
-
-        if(sprite != null) sprite.color = Color.white;
-    }
+ 
 }

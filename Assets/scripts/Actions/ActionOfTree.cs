@@ -4,24 +4,26 @@ using UnityEngine;
 public abstract class ActionOfTree : MonoBehaviour, AIaction
 {
     public float hp;
+    public float damage;
     public abstract void action();
-    public abstract void Hit(int damage);
+    public abstract void Hit(float damage);
 }
-public abstract class ActionOfTreeShooter : MonoBehaviour, AIaction
+public abstract class ActionOfTreeShooter : ActionOfTree
 {
-    public float hp;
     public float timeDelayAct;
     public GameObject projectile;
     public Transform posshoot;
-    public abstract void action();
-    public abstract void Hit(int damage);
 }
-public abstract class ActionOfTreeGetSun : MonoBehaviour, AIaction
+public abstract class ActionOfTreeGetSun : ActionOfTree
 {
-    public float hp;
     public float timeDelayAct;
     public GameObject prefapSun;
     public Transform posSpawnSun;
-    public abstract void action();
-    public abstract void Hit(int damage);
+}
+public abstract class ActionOfTreeBomber : ActionOfTree
+{
+    public float rangeBom;
+    public float disToAction;
+    public float timeMaturation;
+    public LayerMask layerzom;
 }

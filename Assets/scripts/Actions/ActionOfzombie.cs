@@ -7,7 +7,7 @@ public class ActionOfzombie : MonoBehaviour
     public float speed;
     public float hp;
     public int range;
-    public int damage;
+    public float damage;
     public float cooldown;
     public LayerMask plantMask;
     private bool canWalk = true;
@@ -85,19 +85,37 @@ public class ActionOfzombie : MonoBehaviour
         if (collision.CompareTag("projectile"))
         {
             projectileController prj = collision.GetComponent<projectileController>();
-            hp = hp - (int)prj.damage;
-            myAnimator.SetFloat("hp", hp/maxhp);
-            dead();
+            
+            hit(prj.damage);
+            StartCoroutine(setcolor());
         }
     
     }
-
-
-    public void dead()
+    IEnumerator setcolor()
     {
+        if (this.gameObject != null)
+        {
+            this.GetComponent<SpriteRenderer>().color = Color.red;
+            yield return new WaitForSeconds(1f);
+            this.GetComponent<SpriteRenderer>().color = Color.white;
+        }
+    }
+
+    public void hit(float damage)
+    {
+        hp = hp - damage;
+        myAnimator.SetFloat("hp", hp/maxhp);
         if (hp > 0) return;
+        StartCoroutine(dead());
+        
+    }
+
+    IEnumerator dead()
+    {
+        speed = 0f;
+        myAnimator.SetBool("dead", true);
+        yield return new WaitForSeconds(2f);
         gameManager.UpdateAliveZB(-1);
         Destroy(this.gameObject);
-        
     }
 }

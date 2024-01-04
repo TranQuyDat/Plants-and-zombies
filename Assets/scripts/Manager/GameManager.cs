@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public SelectedCusor cursor;
     public progressBar progressBar;
     public LawnMowerManager lawnMowerManager;
+    public particleManager particleManager;
 
     public PointsManager pointsManager;
     public SpawnEnemiManager SpawnEnemi;
@@ -71,7 +72,7 @@ public class GameManager : MonoBehaviour
 
     public void GameWin()
     {
-        //Debug.Log(zombiecount);
+        Debug.Log(zombiecount);
         if (zombiecount > 0) return;
         GameStart = false;
         ischangeState = true;

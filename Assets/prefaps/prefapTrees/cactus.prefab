@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 10
+  damage: 1
   timeDelayAct: 1
   projectile: {fileID: 5879804718095787186, guid: 7a4c2cf38085bf7488e905d07dd78508, type: 3}
   posshoot: {fileID: 8296900358445063204}

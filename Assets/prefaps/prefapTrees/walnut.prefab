@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4855364234968368195}
   - component: {fileID: 3612511750299515478}
   - component: {fileID: 1596717282531481270}
+  - component: {fileID: 2305123819884048826}
   m_Layer: 7
   m_Name: walnut
   m_TagString: tree
@@ -28,11 +29,11 @@ Transform:
   m_GameObject: {fileID: 1085835173186333642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4855364234968368195
 SpriteRenderer:
@@ -152,3 +153,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.80787677, y: 0.4707765}
   m_EdgeRadius: 0
+--- !u!114 &2305123819884048826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085835173186333642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c8e52460b7c26449b972123396c109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 40
+  damage: 0

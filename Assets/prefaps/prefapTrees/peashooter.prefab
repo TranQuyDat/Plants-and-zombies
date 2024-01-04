@@ -152,7 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b80ac7c1cc212be4aacfb19bb34ae5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 0
+  hp: 10
+  damage: 1
   timeDelayAct: 2
   projectile: {fileID: 573342366153085428, guid: c70be446f3c7f3549ad830b55d9a99ef, type: 3}
   posshoot: {fileID: 6063556592422370433}
