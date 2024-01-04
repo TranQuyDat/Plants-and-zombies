@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Walnut : ActionOfTree
 {
-    float curhp;
+    public float curhp;
     Animator animator;
     private void Start()
     {
@@ -22,7 +22,7 @@ public class Walnut : ActionOfTree
         
         curhp -= damage;
         animator.SetFloat("hp", curhp / hp);
-        if (hp <= 0)
+        if (curhp <= 0)
         {
             Destroy(this.gameObject);
         }
