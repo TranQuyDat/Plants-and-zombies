@@ -5,27 +5,28 @@ using UnityEngine;
 public class ActionOfzombie : MonoBehaviour
 {
     public float speed;
-    public int hp;
+    public float hp;
     public int range;
-    public int damage;
+    public float damage;
     public float cooldown;
     public LayerMask plantMask;
     private bool canWalk = true;
     private bool canEat = true;
     public Animator myAnimator;
     public GameManager gameManager;
+    float maxhp;
     public void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
         myAnimator = GetComponent<Animator>();
-    
-
+        maxhp = hp;
+        myAnimator.SetFloat("hp", hp/ maxhp);
 
     }
     public void Update()
     {
         onCollideTheTree();
-
+        
     }
     public void onCollideTheTree()
     {
@@ -54,7 +55,8 @@ public class ActionOfzombie : MonoBehaviour
     }
     public void Walk()
     {
-        myAnimator.Play("zombieWalking");
+        myAnimator.SetBool("walk",true);
+        myAnimator.SetBool("eat",false);
         Vector2 pos = new Vector2(transform.position.x - speed * Time.deltaTime, transform.position.y);
         transform.position = pos;
     }
@@ -64,7 +66,8 @@ public class ActionOfzombie : MonoBehaviour
         if (!canEat)
             return;
         canEat = false;
-        myAnimator.Play("zombieEating");
+        myAnimator.SetBool("walk", false);
+        myAnimator.SetBool("eat", true);
         Debug.Log("Before invoking EatCooldown");
         Invoke("EatCooldown", cooldown);
 
@@ -82,18 +85,37 @@ public class ActionOfzombie : MonoBehaviour
         if (collision.CompareTag("projectile"))
         {
             projectileController prj = collision.GetComponent<projectileController>();
-            hp = hp - (int)prj.damage;
-            dead();
+            
+            hit(prj.damage);
+            StartCoroutine(setcolor());
         }
     
     }
-
-
-    public void dead()
+    IEnumerator setcolor()
     {
+        if (this.gameObject != null)
+        {
+            this.GetComponent<SpriteRenderer>().color = Color.red;
+            yield return new WaitForSeconds(1f);
+            this.GetComponent<SpriteRenderer>().color = Color.white;
+        }
+    }
+
+    public void hit(float damage)
+    {
+        hp = hp - damage;
+        myAnimator.SetFloat("hp", hp/maxhp);
         if (hp > 0) return;
+        StartCoroutine(dead());
+        
+    }
+
+    IEnumerator dead()
+    {
+        speed = 0f;
+        myAnimator.SetBool("dead", true);
+        yield return new WaitForSeconds(2f);
         gameManager.UpdateAliveZB(-1);
         Destroy(this.gameObject);
-        
     }
 }

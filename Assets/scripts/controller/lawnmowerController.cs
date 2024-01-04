@@ -38,8 +38,7 @@ public class lawnmowerController : MonoBehaviour
         {
             ismoving = true;
             ActionOfzombie zomAc = collision.GetComponentInParent<ActionOfzombie>();
-            zomAc.hp = 0;
-            zomAc.dead();
+            zomAc.hit(zomAc.hp);
         }
     }
 

@@ -3,14 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.UI;
+using TMPro;
 
 public class boardchooseTree : MonoBehaviour
 {
     public List<GameObject> listslotCard_view;//la list cac slot o thanh bar  
 
     public List<GameObject> listTreeSelected;// dung de luu chu cac cell da chon
-    
 
+    public TextMeshProUGUI txt_name;
+    public TextMeshProUGUI txt_sprite;
+    public TextMeshProUGUI txt_damage;
+    public TextMeshProUGUI txt_Action;
     public GameManager gameManager;
 
     PlayableDirector playable;
@@ -112,6 +116,18 @@ public class boardchooseTree : MonoBehaviour
     {
         if (obj == null) return;
         cur_selectTree = obj;
+
+        cell_boardselectTree cell = obj.GetComponent<cell_boardselectTree>();
+        if (cell.data == null)
+        {
+            txt_name.text = ""; txt_sprite.text = ""; txt_damage.text = "";txt_Action.text = "";
+            return;
+        }
+        TreeCardController treecard = cell.data.GetComponent<TreeCardController>();
+        txt_name.text = treecard.TreeAc.name;
+        txt_sprite.text = "Price: " + treecard.price;
+        txt_damage.text = "Damage: " + treecard.TreeAc.damage;
+        txt_Action.text = treecard.describe;
     }
     
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6553211027231007689}
   - component: {fileID: 6860618889168557509}
   - component: {fileID: 2465293877313582931}
+  - component: {fileID: 226643290296955884}
   m_Layer: 7
   m_Name: potato
   m_TagString: tree
@@ -28,11 +29,11 @@ Transform:
   m_GameObject: {fileID: 8824721207545529427}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.66, y: -0.09, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6553211027231007689
 SpriteRenderer:
@@ -152,3 +153,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.80787677, y: 0.4707765}
   m_EdgeRadius: 0
+--- !u!114 &226643290296955884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824721207545529427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599a93e00e529334ebef713b071ef404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 10
+  rangeBom: 2
+  disToAction: 1
+  timeMaturation: 5
+  layerzom:
+    serializedVersion: 2
+    m_Bits: 64
+  gameManager: {fileID: 0}
+  objs: []
+  cur_time: 0

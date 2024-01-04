@@ -39,7 +39,7 @@ public  class TreeShooter : ActionOfTreeShooter
     {
         Destroy(this.gameObject);
     }
-    public override void Hit(int damage)
+    public override void Hit(float damage)
     {
         hp -= damage;
         if (hp <= 0)

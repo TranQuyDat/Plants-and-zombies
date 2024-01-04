@@ -9,7 +9,7 @@ public class FlowerPot : ActionOfTree
         
     }
 
-    public override void Hit(int damage)
+    public override void Hit(float damage)
     {
         hp -= damage;
         if (hp > 0) return;

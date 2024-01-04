@@ -130,11 +130,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tree: {fileID: 8824721207545529427, guid: 80dcb59ff3549ec449b46d6d28934855, type: 3}
+  TreeAc: {fileID: 226643290296955884, guid: 80dcb59ff3549ec449b46d6d28934855, type: 3}
   mask: {fileID: 4748295003692898435}
-  price: 25
   timeWaitcardActive: 20
   cardactive: {fileID: 21300000, guid: 8df23cd6d4854ae42870a3be7bfc0eb8, type: 3}
   cardnotactive: {fileID: 21300000, guid: 6902059c89691d445b6000494c074383, type: 3}
+  price: 25
+  describe: The potato is a self-exploding plant that generates a large explosion
+    to eliminate nearby enemies, regardless of how high the enemies' blood may be.
 --- !u!222 &3437577929209989748
 CanvasRenderer:
   m_ObjectHideFlags: 0

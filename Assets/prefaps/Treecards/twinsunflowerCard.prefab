@@ -54,11 +54,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tree: {fileID: 1168425482628213753, guid: bc4ae5f65e13b9247a4a434c36984e47, type: 3}
+  TreeAc: {fileID: 2570120614988150050, guid: bc4ae5f65e13b9247a4a434c36984e47, type: 3}
   mask: {fileID: 2960742293861404772}
-  price: 175
   timeWaitcardActive: 10
   cardactive: {fileID: 21300000, guid: 0257986f3d4b6154db1b1ed544b96ecc, type: 3}
   cardnotactive: {fileID: 21300000, guid: 090f3168796257347b48161c12e15d11, type: 3}
+  price: 175
+  describe: The twinsunflower is similar to the Sunflower in producing sun points,
+    but it generates double the amount of sun points
 --- !u!222 &8401663562758878459
 CanvasRenderer:
   m_ObjectHideFlags: 0

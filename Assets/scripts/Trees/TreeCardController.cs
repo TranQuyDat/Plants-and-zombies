@@ -7,24 +7,30 @@ using UnityEngine.UI;
 public class TreeCardController : MonoBehaviour
 {
     public GameObject Tree;
+    public ActionOfTree TreeAc;
     public Image mask;
-    public int price;
+    
     public float timeWaitcardActive;
     public Sprite cardactive;
     public Sprite cardnotactive;
     SelectedCusor selectedCusor;
     GameManager gameManager;
     bool isActiveCard;
-
+   [Header("*********INFO*********")]
+    public int price;
+    [TextArea]public string describe;
     Image cur_imgcard;
     private void Start()
     {
+        
         gameManager = FindObjectOfType<GameManager>();
         isActiveCard = true;
         gameManager = FindObjectOfType<GameManager>();
         selectedCusor = GameObject.FindAnyObjectByType<SelectedCusor>()
             .GetComponent<SelectedCusor>();
         cur_imgcard = this.GetComponent<Image>();
+        
+
     }
 
     private void Update()

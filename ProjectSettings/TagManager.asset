@@ -65,6 +65,9 @@ TagManager:
   - name: items
     uniqueID: 1516573549
     locked: 0
+  - name: effect
+    uniqueID: 2231401605
+    locked: 0
   - name: cursor
     uniqueID: 811032087
     locked: 0

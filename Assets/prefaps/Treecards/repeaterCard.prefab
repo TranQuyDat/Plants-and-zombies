@@ -54,11 +54,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tree: {fileID: 2759100300387890127, guid: 566cb17f623c85f4786c033c5c08dfc4, type: 3}
+  TreeAc: {fileID: 4751098477341452397, guid: 566cb17f623c85f4786c033c5c08dfc4, type: 3}
   mask: {fileID: 7922228953354711959}
-  price: 225
   timeWaitcardActive: 20
   cardactive: {fileID: 21300000, guid: 853b44087912cba4ca87746d13b4d696, type: 3}
   cardnotactive: {fileID: 21300000, guid: 3155e7fc7812bff4999f8797dcb5850f, type: 3}
+  price: 225
+  describe: The repeater plant is similar to the peashooter plant as it also shoots
+    green projectiles to eliminate enemies, but its firing rate is faster than the
+    peashooter
 --- !u!222 &3061949707789456996
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -32,7 +32,6 @@ public class Sun : MonoBehaviour
 
     IEnumerator movetoAndaddpoint()
     {
-        this.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0.01f;
         yield return new WaitForSeconds(5f);
         MoveTo();
         yield return new WaitUntil(()=> isaddpoint);
@@ -41,10 +40,7 @@ public class Sun : MonoBehaviour
     public void MoveTo()
     {
 
-        if (target == null)
-        {
-            target = GameObject.FindGameObjectWithTag("posSun");
-        }
+        if (target == null) return;
         Vector3 pos = target.transform.position;
         this.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
         this.transform.position = Vector2.Lerp(this.transform.position, pos, 0.1f);

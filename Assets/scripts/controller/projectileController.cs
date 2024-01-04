@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class projectileController : MonoBehaviour
 {
-
+    public GameManager gameManager;
     public float speed;
     public float damage;
-
+    public Animator animator;
     float timelife;
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
+        animator = FindObjectOfType<Animator>();
         timelife = Random.Range(5, 7);
     }
 
@@ -30,11 +32,15 @@ public class projectileController : MonoBehaviour
         CancelInvoke("lifetime");
     }
 
+ 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("zombie"))
         {
+            gameManager.particleManager.getParticleHitFx(this.transform.position);
             Destroy(this.gameObject);
         }
     }
+    
+ 
 }
