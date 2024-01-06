@@ -5,49 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    [SerializeField] private GameObject m_Setting;
-    public enum GameState
+    public GameObject settingPanel;
+    public GameObject selectMapPanel;
+    public soundManager soundManager;
+    public SceneINFO sceneINFO;
+    private void Start()
     {
-        Setting,
-        Menu
+        soundManager = FindObjectOfType<soundManager>();
+        soundManager.playMusic(sceneINFO.st,true);
     }
-    private GameState m_GameState;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        // Ban đầu, chúng ta đặt trạng thái là "Menu"
-        SetGameState(GameState.Menu);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // Nếu bạn muốn thực hiện một số xử lý trong Update, bạn có thể thêm code ở đây
-    }
-
-    public void SetGameState(GameState state)
-    {
-        m_GameState = state;
-
-        // Tắt GameObject "Setting" nếu trạng thái là "Menu"
-        m_Setting.SetActive(m_GameState == GameState.Setting);
-
-    }
-
     public void StartGame()
     {
-        SceneManager.LoadScene(0);
+        selectMapPanel.SetActive(true);
+        soundManager.playSFX(SoundType.sfx_click);
     }
 
     public void BtnSetting_Pressed()
     {
-        SetGameState(GameState.Setting);
+        settingPanel.SetActive(true);
+        soundManager.playSFX(SoundType.sfx_click);
     }
 
-    public void BtnBacktoMenu_Pressed()
+    public void BtnBack(GameObject obj)
     {
         // Khi ấn nút "BacktoMenu", chúng ta chuyển trạng thái về "Menu"
-        SetGameState(GameState.Menu);
+        obj.SetActive(false);
+        soundManager.playSFX(SoundType.sfx_click);
     }
+    public void BtnQuit()
+    {
+        Application.Quit();
+    }
+
 }

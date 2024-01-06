@@ -100,6 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beefcb4e9c7f7524d85257d6b7ecd9dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  FXobj: {fileID: 2814118271435404789, guid: 28c47d56ae33461428668008cfb3aadc, type: 3}
   speed: 3
   damage: 1
   animator: {fileID: 0}

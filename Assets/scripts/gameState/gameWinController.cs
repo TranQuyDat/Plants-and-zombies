@@ -20,8 +20,8 @@ public class gameWinController : MonoBehaviour
         //chuyen map ke tiep
         string nameScene =  SceneManager.GetActiveScene().name;
 
-        if(gameManager.nextScene != null)
-            gameManager.changeScene(gameManager.nextScene);
+        if(gameManager.sceneINFO.NextScene != null)
+            gameManager.changeScene(gameManager.sceneINFO.NextScene);
     }
 
     public void btn_QuiToMenu()

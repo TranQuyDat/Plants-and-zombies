@@ -76,6 +76,7 @@ public class slotTreeMap : MonoBehaviour
         if(selectedCusor.cur_tree != null && isnotEmty == false && 
             !selectedCusor.cur_tree.CompareTag(this.tag))
         {
+            gameManager.soundManager.playSFX(SoundType.sfx_planting);
             isnotEmty = true;
             curTree = Instantiate(selectedCusor.cur_tree,ShadownTree.transform.position
                 ,Quaternion.identity,this.transform);

@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 10
+  damage: 0
   rangeBom: 2
   disToAction: 1
   timeMaturation: 5
@@ -173,5 +174,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   gameManager: {fileID: 0}
+  FXobj: {fileID: 552827975410395893, guid: c0b6c7e505e7e3442a89b4bd6fb0fc39, type: 3}
   objs: []
   cur_time: 0

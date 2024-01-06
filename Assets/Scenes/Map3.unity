@@ -1853,6 +1853,10 @@ PrefabInstance:
       propertyPath: nextScene
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8568359821057379271, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: sceneINFO
+      value: 
+      objectReference: {fileID: 2099456270}
     - target: {fileID: 8680838480694315456, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2047,6 +2051,7 @@ GameObject:
   - component: {fileID: 2099456269}
   - component: {fileID: 2099456268}
   - component: {fileID: 2099456267}
+  - component: {fileID: 2099456270}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2128,3 +2133,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2099456270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099456266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754811c7031202c479f299e96600ca4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextScene: 1
+  st: 0

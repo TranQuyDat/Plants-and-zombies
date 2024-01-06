@@ -5,6 +5,7 @@ using UnityEngine;
 public class lawnmowerController : MonoBehaviour
 {
     public float speed;
+    public GameManager gameManager;
     bool ismoving;
     Vector2 posStart;
     private void Awake()
@@ -13,6 +14,7 @@ public class lawnmowerController : MonoBehaviour
     }
     private void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         posStart = this.transform.position;
         ismoving = false;
     }
@@ -31,14 +33,17 @@ public class lawnmowerController : MonoBehaviour
             , this.transform.position.y);
         this.transform.position = pos;
     }
-
+    int d = 0;
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.CompareTag("zombie"))
         {
+            d++;
             ismoving = true;
             ActionOfzombie zomAc = collision.GetComponentInParent<ActionOfzombie>();
             zomAc.hit(zomAc.hp);
+            if(d<=1) gameManager.soundManager.playSFX(SoundType.sfx_lawnmower);
         }
     }
 

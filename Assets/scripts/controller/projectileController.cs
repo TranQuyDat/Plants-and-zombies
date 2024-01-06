@@ -5,6 +5,7 @@ using UnityEngine;
 public class projectileController : MonoBehaviour
 {
     public GameManager gameManager;
+    public GameObject FXobj;
     public float speed;
     public float damage;
     public Animator animator;
@@ -37,7 +38,8 @@ public class projectileController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("zombie"))
         {
-            gameManager.particleManager.getParticleHitFx(this.transform.position);
+            gameManager.particleManager.callParticleFx(this.transform.position, FXobj);
+            gameManager.soundManager.playSFX(SoundType.sfx_prjtMetzom);
             Destroy(this.gameObject);
         }
     }
