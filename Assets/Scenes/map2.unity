@@ -363,6 +363,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 938899750386237040, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: df_points
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 938899750386237040, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: cur_points
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 972443952739984281, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -767,6 +775,58 @@ PrefabInstance:
       propertyPath: SlotType
       value: notground
       objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[3].ZombiesCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[1].zombiesType.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[2].zombiesType.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[3].zombiesType.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[0].zombiesType.Array.data[0]
+      value: 
+      objectReference: {fileID: 8142167457682935084, guid: 41b45c6222965fa44adf0304e6f79cc5, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[1].zombiesType.Array.data[0]
+      value: 
+      objectReference: {fileID: 8142167457682935084, guid: 41b45c6222965fa44adf0304e6f79cc5, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[1].zombiesType.Array.data[1]
+      value: 
+      objectReference: {fileID: 1536808113361810764, guid: 0d9ea0719525ded4d8faf1a530915180, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[2].zombiesType.Array.data[0]
+      value: 
+      objectReference: {fileID: 8142167457682935084, guid: 41b45c6222965fa44adf0304e6f79cc5, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[2].zombiesType.Array.data[1]
+      value: 
+      objectReference: {fileID: 1536808113361810764, guid: 0d9ea0719525ded4d8faf1a530915180, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[3].zombiesType.Array.data[0]
+      value: 
+      objectReference: {fileID: 8142167457682935084, guid: 41b45c6222965fa44adf0304e6f79cc5, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[3].zombiesType.Array.data[1]
+      value: 
+      objectReference: {fileID: 1536808113361810764, guid: 0d9ea0719525ded4d8faf1a530915180, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[0].listwave.Array.data[3].zombiesType.Array.data[2]
+      value: 
+      objectReference: {fileID: 2387688640192490170, guid: 47335405c1a1758489d2a3befeeafbbf, type: 3}
     - target: {fileID: 2295113911719563625, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1952,6 +2012,38 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6230526370119974662, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290143013868949352, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290143013868949352, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290143013868949352, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290143013868949352, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290143013868949352, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290143013868949352, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290143013868949352, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290143013868949352, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}

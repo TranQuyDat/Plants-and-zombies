@@ -12,11 +12,14 @@ public class MenuController : MonoBehaviour
     private void Start()
     {
         soundManager = FindObjectOfType<soundManager>();
+        soundManager.musicTheme.mute = false;
         soundManager.playMusic(sceneINFO.st,true);
+        
     }
     public void StartGame()
     {
         selectMapPanel.SetActive(true);
+        
         soundManager.playSFX(SoundType.sfx_click);
     }
 

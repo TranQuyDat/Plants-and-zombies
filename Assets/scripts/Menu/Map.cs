@@ -11,13 +11,16 @@ public class Map : MonoBehaviour
     public Image Img;
     public Sprite MapSprite;
     public Scene mapScene;
+    public LoadSceneSmoothy load;
+
     private void Start()
     {
+        load = FindObjectOfType<LoadSceneSmoothy>();
         Img.sprite = MapSprite;
         txt_name.text = mapScene.ToString();
     }
     public void clickToMap()
     {
-        SceneManager.LoadScene(mapScene.ToString());
+        load.LoadSceneWithtransition(mapScene, tranType.transitionOpen);
     } 
 }

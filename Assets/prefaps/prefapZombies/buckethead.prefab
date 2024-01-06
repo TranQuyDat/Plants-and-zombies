@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb9680b152587914c9b7642390205634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.5
   hp: 20
   range: 0
   damage: 1
@@ -130,7 +130,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   myAnimator: {fileID: 0}
-  isdead: 0
   gameManager: {fileID: 0}
 --- !u!61 &6848182847020306118
 BoxCollider2D:

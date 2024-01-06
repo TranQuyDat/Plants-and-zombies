@@ -12,12 +12,14 @@ public class PointsManager : MonoBehaviour
     public Transform[] posSpwan;
     [Header("********ManagerPoint*********")]
     public Transform parentSun;
+    public int df_points;
     public int cur_points;
     public TextMeshProUGUI txt_point;
     public List<GameObject> listSun;
 
     private void Start()
     {
+        cur_points = df_points;
         gameManager = FindObjectOfType<GameManager>();
 
         InvokeRepeating("spawnSun", 3f, Random.Range(15,30));

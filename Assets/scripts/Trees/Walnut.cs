@@ -19,7 +19,7 @@ public class Walnut : ActionOfTree
 
     public override void Hit(float damage)
     {
-        
+        if (animator == null || this.gameObject == null) return;
         curhp -= damage;
         animator.SetFloat("hp", curhp / hp);
         if (curhp <= 0)

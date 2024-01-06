@@ -7,12 +7,14 @@ public class gamePauseController : MonoBehaviour
     public GameManager gameManager;
     public void btn_resume()
     {
+        Time.timeScale = 1;
         gameManager.ischangeState = true;
         gameManager.setGamestate(State.gameplay);
     }
 
     public void btn_restart()
     {
+        Time.timeScale = 1;
         gameManager.ischangeState = true;
         gameManager.setGamestate(State.gameplay);
         //set lai timeline
@@ -24,6 +26,7 @@ public class gamePauseController : MonoBehaviour
     public void btn_QuitToMenu()
     {
         //chuyen ve main menu
+        Time.timeScale = 1;
         gameManager.changeScene(Scene.Menu);
     }
 }
