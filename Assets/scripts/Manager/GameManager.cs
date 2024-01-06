@@ -11,13 +11,7 @@ public enum State
     gameover,
     gamewin
 }
-[HideInInspector] public enum Scene
-{
-    Menu,
-    Map1,
-    Map2,
-    Map3
-}
+
 public class GameManager : MonoBehaviour
 {
     public selectBarController selectBarController;
@@ -26,13 +20,15 @@ public class GameManager : MonoBehaviour
     public progressBar progressBar;
     public LawnMowerManager lawnMowerManager;
     public particleManager particleManager;
+    public SceneINFO sceneINFO;
 
     public PointsManager pointsManager;
     public SpawnEnemiManager SpawnEnemi;
     public TreeManager treeManager;
+    public soundManager soundManager;
 
-    int zombiecount;
-    public State  state;
+    public int zombiecount;
+    public State state;
     public bool GameStart;
     [Header("******gameState**********")]
     public gamePlayController gamePlayctrl;
@@ -40,19 +36,21 @@ public class GameManager : MonoBehaviour
     public gamePauseController gamePausectrl;
     public gameWinController gameWinctrl;
     public bool ischangeState;
-    public Scene nextScene;
+    public bool iswin;
     [HideInInspector] public PlayableDirector playable;
 
     private void Start()
     {
+        soundManager = FindObjectOfType<soundManager>();
         state = State.gameplay;
         playable = this.GetComponent<PlayableDirector>();
         ischangeState = true;
-        
+
         gameStart();
     }
     private void Update()
     {
+        if (soundManager == null) soundManager = FindObjectOfType<soundManager>();
         updateGamestate();
         GameWin();
     }
@@ -63,24 +61,26 @@ public class GameManager : MonoBehaviour
         gamePausectrl.gameObject.SetActive(state == State.gamepause);
         gameOverctrl.gameObject.SetActive(state == State.gameover);
         gameWinctrl.gameObject.SetActive(state == State.gamewin);
-        ischangeState = false; 
+        ischangeState = false;
     }
     public void updateZombiescount()
     {
-            zombiecount = SpawnEnemi.getAllzombiescount();
+        zombiecount = SpawnEnemi.getAllzombiescount();
     }
 
     public void GameWin()
     {
-        Debug.Log(zombiecount);
-        if (zombiecount > 0) return;
+        if (zombiecount > 0 || iswin) return;
+        iswin = true;
         GameStart = false;
         ischangeState = true;
         state = State.gamewin;
+        soundManager.playMusic(SoundType.music_win,false);
     }
 
     public void GameOver()
     {
+        soundManager.playMusic(SoundType.music_gameover,false);
         GameStart = false;
         ischangeState = true;
         state = State.gameover;
@@ -107,9 +107,10 @@ public class GameManager : MonoBehaviour
 
     public void gameStart()
     {
+        soundManager.playMusic(sceneINFO.st, true);
         boardchooseTree.isReStart = true;
         progressBar.fillbar.value = 0;
-        
+        iswin = false;
         SpawnEnemi.destroyAllzombies();
         SpawnEnemi.defaultSetting();
         treeManager.destroyAllTree();
@@ -127,6 +128,9 @@ public class GameManager : MonoBehaviour
         zombiecount += num;
     }
 
-   
+   public void btn_click()
+    {
+        soundManager.playSFX(SoundType.sfx_click);
+    }
 }
 

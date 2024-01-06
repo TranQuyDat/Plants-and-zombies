@@ -68,6 +68,7 @@ public class ActionOfzombie : MonoBehaviour
         canEat = false;
         myAnimator.SetBool("walk", false);
         myAnimator.SetBool("eat", true);
+        gameManager.soundManager.playSFX(SoundType.sfx_zombieEat);
         Debug.Log("Before invoking EatCooldown");
         Invoke("EatCooldown", cooldown);
 
@@ -114,6 +115,7 @@ public class ActionOfzombie : MonoBehaviour
     {
         speed = 0f;
         myAnimator.SetBool("dead", true);
+        gameManager.soundManager.playSFX(SoundType.sfx_zombieFall);
         yield return new WaitForSeconds(2f);
         gameManager.UpdateAliveZB(-1);
         Destroy(this.gameObject);

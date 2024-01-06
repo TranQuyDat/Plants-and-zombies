@@ -6,10 +6,15 @@ public  class TreeShooter : ActionOfTreeShooter
 {
     public Transform PosCheckZom;
     public bool SeeingZom;
+    public bool isShooting;
     public LayerMask zombieLayer;
+    public GameManager gameManager;
+    public Animator animator;
     SelectedCusor selectedCusor;
     private void Start()
     {
+        animator = this.GetComponent<Animator>();
+        gameManager = FindObjectOfType<GameManager>();
         selectedCusor = FindObjectOfType<SelectedCusor>();
         PosCheckZom = GameObject.FindGameObjectWithTag("Poscheckzombie").transform;
         InvokeRepeating("action", timeDelayAct, timeDelayAct);
@@ -20,9 +25,18 @@ public  class TreeShooter : ActionOfTreeShooter
     public override void action()
     {
         if (SeeingZom == false) return;
-        Instantiate(projectile, posshoot.position, Quaternion.identity);
+        StartCoroutine(spawnPrjt());
     }
-
+    IEnumerator spawnPrjt()
+    {
+        animator.SetBool("ishooting", true);
+        yield return new WaitUntil(()=> isShooting == true);
+        isShooting = false;
+        animator.SetBool("ishooting", false);
+        GameObject prjt = Instantiate(projectile, posshoot.position, Quaternion.identity);
+        prjt.GetComponent<projectileController>().damage = damage;
+        gameManager.soundManager.playSFX(SoundType.sfx_spawnPrjt);
+    }
     public void checkingzom()
     {
         float distance = (PosCheckZom.position - transform.position).magnitude;

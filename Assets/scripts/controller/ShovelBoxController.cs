@@ -46,6 +46,7 @@ public class ShovelBoxController : MonoBehaviour
         cursor.cur_Item = Shovel;
         Shovel.transform.SetParent(cursor.transform);
         isSelectShovel = true;
+        gameManager.soundManager.playSFX(SoundType.sfx_getShovel);
     }
 
     public void shovelDropToBox()

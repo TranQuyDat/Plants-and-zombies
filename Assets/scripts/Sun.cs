@@ -26,6 +26,7 @@ public class Sun : MonoBehaviour
     public void addpoint()
     {
         gameManager.pointsManager.addPoint(sunPoint);
+        gameManager.soundManager.playSFX(SoundType.sfx_point);
         Destroy(this.gameObject);
         isaddpoint = false;
     }

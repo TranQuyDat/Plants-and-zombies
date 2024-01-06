@@ -4,21 +4,11 @@ using UnityEngine;
 
 public class particleManager : MonoBehaviour
 {
-    public GameObject hitfx;
-    public GameObject bomfx;
     ParticleSystem fx;
     
-    public void getParticleHitFx(Vector2 pos)
+    public void callParticleFx(Vector2 pos,GameObject fxobj)
     {
-        GameObject obj = Instantiate(hitfx, pos, Quaternion.identity, this.transform);
-        fx = obj.GetComponent<ParticleSystem>();
-        fx.Play();
-        StartCoroutine(deactiveFx(fx));
-    }
-
-    public void getParticleBomFx(Vector2 pos)
-    {
-        GameObject obj =  Instantiate(bomfx, pos, Quaternion.identity, this.transform);
+        GameObject obj = Instantiate(fxobj, pos, Quaternion.identity, this.transform);
         fx = obj.GetComponent<ParticleSystem>();
         fx.Play();
         StartCoroutine(deactiveFx(fx));

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Potato : ActionOfTreeBomber
 {
     public GameManager gameManager;
+    public GameObject FXobj;
     public Collider2D[] objs;
     RaycastHit2D hit;
     public float cur_time;
@@ -32,7 +33,8 @@ public class Potato : ActionOfTreeBomber
     {
         if (hit.collider != null)
         {
-            gameManager.particleManager.getParticleBomFx(this.transform.position);
+            gameManager.particleManager.callParticleFx(this.transform.position, FXobj);
+            gameManager.soundManager.playSFX(SoundType.sfx_potatoBomb);
             foreach (Collider2D obj in objs)
             {
                 ActionOfzombie zom = obj.gameObject.GetComponent<ActionOfzombie>();
