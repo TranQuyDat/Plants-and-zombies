@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: -381184588798220026}
   - component: {fileID: -5410603780585155729}
   - component: {fileID: 8532001416894997495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: brickhead
-  m_TagString: Untagged
+  m_TagString: zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e750afba70da04b8869143f1ab276e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  hp: 10
+  speed: 0.5
+  hp: 25
   range: 0
   damage: 1
   cooldown: 2.5

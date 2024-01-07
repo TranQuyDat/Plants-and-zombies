@@ -90,9 +90,9 @@ GameObject:
   - component: {fileID: 4862502834202089220}
   - component: {fileID: 1382969383033887958}
   - component: {fileID: 3141712574986942077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: zombie
-  m_TagString: Untagged
+  m_TagString: zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -215,7 +215,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.06359744, y: 0.38590246}
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb9680b152587914c9b7642390205634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.5
   hp: 5
   range: 0
   damage: 1

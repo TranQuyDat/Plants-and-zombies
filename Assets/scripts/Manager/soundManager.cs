@@ -3,12 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
-[CreateAssetMenu(fileName ="saveVolume",menuName ="soundManager/createSaveVolume")]
-public class volume :ScriptableObject
-{
-    public float CurvolumeMusic;
-    public float CurvolumeSFX;
-}
+
 
 public enum SoundType
 {
@@ -28,7 +23,8 @@ public enum SoundType
     sfx_vasebreaking,
     music_gameover,
     sfx_scream,
-    sfx_click
+    sfx_click,
+    sfx_zomcoming
 
 }
 public class soundManager : MonoBehaviour
@@ -56,6 +52,7 @@ public class soundManager : MonoBehaviour
     public AudioClip sfx_vasebreaking;
     public AudioClip sfx_scream;
     public AudioClip sfx_click;
+    public AudioClip sfx_zomcoming;
 
     public Dictionary<SoundType, AudioClip> dicSound;
     public SceneINFO sceneINFO;
@@ -81,13 +78,12 @@ public class soundManager : MonoBehaviour
             { SoundType.music_gameover , music_gameover },
             { SoundType.sfx_scream , sfx_scream },
             { SoundType.sfx_click , sfx_click },
+            { SoundType.sfx_zomcoming , sfx_zomcoming },
         };
+        sceneINFO = FindObjectOfType<SceneINFO>();
     }
     private void Start()
     {
-        sceneINFO = FindObjectOfType<SceneINFO>();
-       
-
         mixer.SetFloat("Master", 40 * Mathf.Log10(saveVolume.CurvolumeMusic));
         mixer.SetFloat("SFX", 40 * Mathf.Log10(saveVolume.CurvolumeSFX));
     }

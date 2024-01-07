@@ -24,7 +24,7 @@ public  class TreeShooter : ActionOfTreeShooter
 
     public override void action()
     {
-        if (SeeingZom == false) return;
+        if (SeeingZom == false || !this.gameObject.active) return;
         StartCoroutine(spawnPrjt());
     }
     IEnumerator spawnPrjt()

@@ -60,7 +60,7 @@ AudioMixerController:
   - {fileID: 24500006}
   m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
-  m_EnableSuspend: 1
+  m_EnableSuspend: 0
   m_UpdateMode: 0
   m_ExposedParameters:
   - guid: 904e8d7ef3c139c45b655f8025905c10
@@ -120,11 +120,44 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 910aed5a4f935784f9da71170e7df085
   m_FloatValues:
-    35660400444ac044b8efefe951ccdbe7: -8.362404
+    35660400444ac044b8efefe951ccdbe7: -9.332112
+    01d4a7e05a43b514d932a9bc604c14f2: 1
+    0c47bf92d52c33f488b651edb6b16bc6: 10
+    ff077ac612ddc8c48b7ce1fac800fab8: 1
+    ead180271b6bb3148a604605033799e6: 1
+    a6985167479048f40bcf2e7a24c3b478: 0
+    8cc836582cdf34e4fb8cefafd3a1ada0: 0
     6d67fdd84f3601b4bab78621b9f0c1db: 1
-    1ceb5f8a00fe54e4c9aa8250caa70b92: -20.981256
-    904e8d7ef3c139c45b655f8025905c10: -32.98391
+    33749fd80b077ae468a27ab3e18c7184: 1
+    0818bf596bf239b4c9dc3abe53f023fd: 10
+    1ceb5f8a00fe54e4c9aa8250caa70b92: -80
+    904e8d7ef3c139c45b655f8025905c10: -32.98389
+    706f57bfafc2bee4fb1d5eb00c8bfe6f: 0.51
   m_TransitionOverrides: {}
+--- !u!244 &114185094157326800
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 89362c9de01f62e499cab8e522d8e242
+  m_EffectName: Echo
+  m_MixLevel: 10c1e1fc258ce8d4bb15d04c2a76837b
+  m_Parameters:
+  - m_ParameterName: Delay
+    m_GUID: 01d4a7e05a43b514d932a9bc604c14f2
+  - m_ParameterName: Decay
+    m_GUID: 252cfea4d2942054abb640a58cb5cf47
+  - m_ParameterName: Max channels
+    m_GUID: 5679de987011ed544a56db6676e26414
+  - m_ParameterName: Drymix
+    m_GUID: 4e33f7dcca3a6ea4e8984f2f75a19e91
+  - m_ParameterName: Wetmix
+    m_GUID: 2fd4a2df90775d4408ce902a561c2058
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &4402304685153249802
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -140,6 +173,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -4320125333912293490}
+  - {fileID: 114185094157326800}
   m_UserColorIndex: 1
   m_Mute: 0
   m_Solo: 0

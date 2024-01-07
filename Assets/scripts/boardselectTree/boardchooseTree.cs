@@ -45,6 +45,7 @@ public class boardchooseTree : MonoBehaviour
 
     public void btn_Add()
     {
+        gameManager.soundManager.playSFX(SoundType.sfx_click);
         if (cur_selectTree == null || 
             cur_selectTree.GetComponent<cell_boardselectTree>().data == null) return;
         cell_boardselectTree cell = cur_selectTree.GetComponent<cell_boardselectTree>();
@@ -75,7 +76,6 @@ public class boardchooseTree : MonoBehaviour
 
     public void btn_remove()
     {
-        
         for (int i = 0; i < listslotCard_view.Count; i++)
         {
             GameObject item = listslotCard_view[i].
@@ -99,6 +99,9 @@ public class boardchooseTree : MonoBehaviour
      
     public void btn_start()
     {
+        gameManager.soundManager.playSFX(SoundType.sfx_click);
+        if (listTreeSelected.Count <= 0 || listTreeSelected == null) return;
+        
         foreach (GameObject item in listTreeSelected) 
         {
             if (item == null) return; 

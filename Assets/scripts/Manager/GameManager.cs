@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     public SpawnEnemiManager SpawnEnemi;
     public TreeManager treeManager;
     public soundManager soundManager;
+    public LoadSceneSmoothy load;
 
     public int zombiecount;
     public State state;
@@ -39,13 +40,15 @@ public class GameManager : MonoBehaviour
     public bool iswin;
     [HideInInspector] public PlayableDirector playable;
 
-    private void Start()
+    private void Awake()
     {
         soundManager = FindObjectOfType<soundManager>();
         state = State.gameplay;
         playable = this.GetComponent<PlayableDirector>();
         ischangeState = true;
-
+    }
+    private void Start()
+    {
         gameStart();
     }
     private void Update()
@@ -102,11 +105,12 @@ public class GameManager : MonoBehaviour
 
     public void changeScene(Scene nameScene)
     {
-        SceneManager.LoadScene(nameScene.ToString());
+        load.LoadSceneWithtransition(nameScene,tranType.transitionOpen);
     }
 
     public void gameStart()
     {
+        load.callTransition(tranType.transitionClose);
         soundManager.playMusic(sceneINFO.st, true);
         boardchooseTree.isReStart = true;
         progressBar.fillbar.value = 0;
@@ -116,7 +120,7 @@ public class GameManager : MonoBehaviour
         treeManager.destroyAllTree();
         pointsManager.destroyAllSun();
         
-        pointsManager.cur_points = 200;//diem khi bat dau choi
+        pointsManager.cur_points = pointsManager.df_points;//diem khi bat dau choi
         GameStart = false;
         
         lawnMowerManager.setDf_LawnMowers();

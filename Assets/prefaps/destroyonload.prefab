@@ -31,7 +31,7 @@ Transform:
   m_Children:
   - {fileID: 6443149439538287668}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &268565976148145269
 MonoBehaviour:
@@ -113,6 +113,7 @@ MonoBehaviour:
   sfx_vasebreaking: {fileID: 8300000, guid: 97038d154ecd0fe4db46f2b7632538e6, type: 3}
   sfx_scream: {fileID: 8300000, guid: c2cdb94f82b16834081c0a84798ce3ef, type: 3}
   sfx_click: {fileID: 8300000, guid: 205d3b4b2e47c7a4e86651b4fe8579f6, type: 3}
+  sfx_zomcoming: {fileID: 8300000, guid: 3221b8bdab318484686ae53cd5f9c302, type: 3}
   sceneINFO: {fileID: 0}
   curMusicScene: 1
 --- !u!1 &5216505846186055784

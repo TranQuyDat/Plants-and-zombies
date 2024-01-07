@@ -7,10 +7,6 @@ public class gamePlayController : MonoBehaviour
     public GameManager gameManager;
     private void Update()
     {
-        if(Time.timeScale == 0)
-        {
-            Time.timeScale = 1;
-        }
     }
     public void btn_pause()
     {

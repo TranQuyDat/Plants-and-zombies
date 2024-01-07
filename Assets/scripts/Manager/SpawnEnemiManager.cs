@@ -29,10 +29,13 @@ public class SpawnEnemiManager : MonoBehaviour
     public float timedelaySpawn;
     public bool nextWave;
     public Transform parentZom;
-
+    [Range(0,20)] public float timeWaitPlayer;
+    public float curtimeWaitPlayer;
     int levelnum, wavenum;
     int Cur_ZombiesCount;
     Level curLevel;
+
+    public bool zombiesIsComing;
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -41,9 +44,24 @@ public class SpawnEnemiManager : MonoBehaviour
         InvokeRepeating("spawnZombies", timedelaySpawn, timedelaySpawn);
     }
 
+    private void Update()
+    {
+        if (gameManager.GameStart && curtimeWaitPlayer > 0)
+        {
+            curtimeWaitPlayer -= 0.5f * Time.deltaTime;
+        }
+        if (gameManager.GameStart && curtimeWaitPlayer <= 0 && !zombiesIsComing)
+        {
+            zombiesIsComing = true;
+            gameManager.soundManager.playSFX(SoundType.sfx_zomcoming);
+        }
+    }
+
     public void defaultSetting()
     {
+        zombiesIsComing = false;
         Cur_ZombiesCount = 0;
+        curtimeWaitPlayer = timeWaitPlayer;
         levelnum = 0;
         wavenum = -1;
         curLevel = Levels[levelnum];
@@ -68,7 +86,7 @@ public class SpawnEnemiManager : MonoBehaviour
     }
     public void spawnZombies()
     {
-        if (!gameManager.GameStart) return;
+        if (!gameManager.GameStart || curtimeWaitPlayer > 0) return;
         if (levelnum>=0 && Cur_ZombiesCount > 0) // check so luong zombies cua moi wave
         {
             

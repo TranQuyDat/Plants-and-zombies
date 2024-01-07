@@ -25,7 +25,10 @@ public class progressBar : MonoBehaviour
     private void Update()
     {
 
-        fillbar.value = fillbar.value + 0.01f*speed *Time.deltaTime;
+        if(gameManager.GameStart && SpawnEnemi.zombiesIsComing)
+        {
+            fillbar.value = fillbar.value + 0.01f * speed * Time.deltaTime;
+        }
         
         if(curWavecount!= SpawnEnemi.getWavecount())
         {
