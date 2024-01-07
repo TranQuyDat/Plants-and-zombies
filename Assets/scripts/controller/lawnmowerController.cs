@@ -55,7 +55,7 @@ public class lawnmowerController : MonoBehaviour
 
     public void dead()
     {
-        if (transform.position.x > 15)
+        if (transform.position.x > 10)
         {
             this.gameObject.SetActive(false);
         }

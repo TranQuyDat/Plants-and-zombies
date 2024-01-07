@@ -76,7 +76,6 @@ public class boardchooseTree : MonoBehaviour
 
     public void btn_remove()
     {
-        gameManager.soundManager.playSFX(SoundType.sfx_click);
         for (int i = 0; i < listslotCard_view.Count; i++)
         {
             GameObject item = listslotCard_view[i].
@@ -101,6 +100,8 @@ public class boardchooseTree : MonoBehaviour
     public void btn_start()
     {
         gameManager.soundManager.playSFX(SoundType.sfx_click);
+        if (listTreeSelected.Count <= 0 || listTreeSelected == null) return;
+        
         foreach (GameObject item in listTreeSelected) 
         {
             if (item == null) return; 

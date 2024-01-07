@@ -15,7 +15,7 @@ public class LoadSceneSmoothy : MonoBehaviour
     public bool endTransition;
     public soundManager sound;
     Image img;
-    private void Start()
+    private void Awake()
     {
         sound = FindObjectOfType<soundManager>();
         img = this.GetComponent<Image>();

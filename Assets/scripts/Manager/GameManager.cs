@@ -40,13 +40,15 @@ public class GameManager : MonoBehaviour
     public bool iswin;
     [HideInInspector] public PlayableDirector playable;
 
-    private void Start()
+    private void Awake()
     {
         soundManager = FindObjectOfType<soundManager>();
         state = State.gameplay;
         playable = this.GetComponent<PlayableDirector>();
         ischangeState = true;
-
+    }
+    private void Start()
+    {
         gameStart();
     }
     private void Update()

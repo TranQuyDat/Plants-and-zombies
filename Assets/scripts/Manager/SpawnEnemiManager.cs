@@ -50,7 +50,11 @@ public class SpawnEnemiManager : MonoBehaviour
         {
             curtimeWaitPlayer -= 0.5f * Time.deltaTime;
         }
-        if(gameManager.GameStart && curtimeWaitPlayer <= 0) zombiesIsComing = true;
+        if (gameManager.GameStart && curtimeWaitPlayer <= 0 && !zombiesIsComing)
+        {
+            zombiesIsComing = true;
+            gameManager.soundManager.playSFX(SoundType.sfx_zomcoming);
+        }
     }
 
     public void defaultSetting()

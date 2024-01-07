@@ -1499,10 +1499,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1035462522}
   m_HandleRect: {fileID: 1324659058}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.01
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.01
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2519,32 +2519,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2960824426180351388, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.76822
-      objectReference: {fileID: 0}
-    - target: {fileID: 2960824426180351388, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.7301211
-      objectReference: {fileID: 0}
-    - target: {fileID: 2960824426180351388, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.1966
-      objectReference: {fileID: 0}
-    - target: {fileID: 2960824426180351388, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.1856
-      objectReference: {fileID: 0}
-    - target: {fileID: 3109966245647383768, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 2023474447720110194, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
+--- !u!114 &1249774944 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7437123774316628107, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
+  m_PrefabInstance: {fileID: 1249774943}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd016ddc3313b049adeb9c24ca51390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1300470673
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,7 +2803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settingPanel: {fileID: 2137246484}
   selectMapPanel: {fileID: 1397333874}
-  soundManager: {fileID: 0}
+  soundManager: {fileID: 1249774944}
   sceneINFO: {fileID: 86361488}
 --- !u!1 &1391187979
 GameObject:
@@ -3504,10 +3494,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 175844368}
   m_HandleRect: {fileID: 1736523097}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.01
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.01
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ActionOfzombie : MonoBehaviour
 {
+    public bool isIdle;
     public float speed;
     public float hp;
     public int range;
@@ -15,21 +16,32 @@ public class ActionOfzombie : MonoBehaviour
     public Animator myAnimator;
     public GameManager gameManager;
     float maxhp;
+
     public void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
         myAnimator = GetComponent<Animator>();
         maxhp = hp;
         myAnimator.SetFloat("hp", hp/ maxhp);
-
+        Idle();
     }
     public void Update()
     {
         onCollideTheTree();
         
     }
+
+    public void Idle()
+    {
+        if(isIdle)
+        {
+            myAnimator.Play("idle");
+            speed = 0;
+        }
+    }
     public void onCollideTheTree()
     {
+        if (isIdle) return;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, range, plantMask);
 
         if (hit.collider && (hit.collider.CompareTag("tree") || hit.collider.CompareTag("flowerpot")) )
