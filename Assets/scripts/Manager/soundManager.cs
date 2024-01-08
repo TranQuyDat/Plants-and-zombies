@@ -105,6 +105,7 @@ public class soundManager : MonoBehaviour
     }
     public void playSFX(SoundType st)
     {
+        SFX.Stop();
         SFX.PlayOneShot(dicSound[st]);
     }
  
