@@ -24,7 +24,6 @@ public class SpawnEnemiManager : MonoBehaviour
 {
     public GameManager gameManager;
     public List<Transform> listPosSpawn;
-    public List<GameObject> listZombiesSpawned;
     [SerializeField] private List<Level> Levels ;
     public float timedelaySpawn;
     public bool nextWave;
@@ -35,11 +34,13 @@ public class SpawnEnemiManager : MonoBehaviour
     int Cur_ZombiesCount;
     Level curLevel;
 
+    public PoolingEnemy poolingEnemy;
+
     public bool zombiesIsComing;
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-
+        poolingEnemy = this.GetComponent<PoolingEnemy>();
         defaultSetting();
         InvokeRepeating("spawnZombies", timedelaySpawn, timedelaySpawn);
     }
@@ -65,6 +66,7 @@ public class SpawnEnemiManager : MonoBehaviour
         levelnum = 0;
         wavenum = -1;
         curLevel = Levels[levelnum];
+        poolingEnemy.destroyAll();
     }
     public void updateLevel()
     {
@@ -91,12 +93,11 @@ public class SpawnEnemiManager : MonoBehaviour
         {
             
             GameObject randomZombie = curLevel.cur_wave.zombiesType[
-                Random.Range(0, curLevel.cur_wave.zombiesType.Length-1)]; // lay random type zombies
-            Transform randomSpawn =listPosSpawn[ Random.Range(0, listPosSpawn.Count-1) ]; // lay random pos spawn zombies
-            GameObject zombie = Instantiate(randomZombie,
-                randomSpawn.position,Quaternion.identity, parentZom);//sinh ra zombies
-
-            listZombiesSpawned.Add(zombie);
+                Random.Range(0, curLevel.cur_wave.zombiesType.Length)]; // lay random type zombies
+            Transform randomSpawn =listPosSpawn[ Random.Range(0, listPosSpawn.Count) ]; // lay random pos spawn zombies
+            //GameObject zombie = Instantiate(randomZombie,
+            //    randomSpawn.position,Quaternion.identity, parentZom);
+            poolingEnemy.pooling(randomZombie, randomSpawn.position);//sinh ra zombies
             Cur_ZombiesCount--;
             return;
         }
@@ -121,13 +122,5 @@ public class SpawnEnemiManager : MonoBehaviour
         }
         return sum;
     }
-    public void destroyAllzombies()
-    {
-        foreach (GameObject zom in listZombiesSpawned) 
-        {
-            Destroy(zom);
-        }
-        listZombiesSpawned.Clear();
-           
-    }
+    
 }

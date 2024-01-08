@@ -4774,6 +4774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1803702554413132983}
   - component: {fileID: 2262228335343169467}
+  - component: {fileID: 516195777844084396}
   m_Layer: 0
   m_Name: SpawnZombies
   m_TagString: Untagged
@@ -4815,7 +4816,6 @@ MonoBehaviour:
   - {fileID: 8559417651402252129}
   - {fileID: 6966678334876617557}
   - {fileID: 2521069608705325621}
-  listZombiesSpawned: []
   Levels:
   - listwave:
     - ZombiesCount: 2
@@ -4838,7 +4838,23 @@ MonoBehaviour:
   parentZom: {fileID: 6476347433362947282}
   timeWaitPlayer: 7
   curtimeWaitPlayer: 0
+  poolingEnemy: {fileID: 0}
   zombiesIsComing: 0
+--- !u!114 &516195777844084396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4165790741075640140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3e2d089ccd8b04f98820e2cd5cfb4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: []
+  deactive: []
+  parentZom: {fileID: 6476347433362947282}
 --- !u!1 &4283574731554781310
 GameObject:
   m_ObjectHideFlags: 0

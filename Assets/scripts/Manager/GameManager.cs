@@ -115,7 +115,6 @@ public class GameManager : MonoBehaviour
         boardchooseTree.isReStart = true;
         progressBar.fillbar.value = 0;
         iswin = false;
-        SpawnEnemi.destroyAllzombies();
         SpawnEnemi.defaultSetting();
         treeManager.destroyAllTree();
         pointsManager.destroyAllSun();

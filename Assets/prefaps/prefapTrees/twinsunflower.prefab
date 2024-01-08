@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -944619017
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1217907557, guid: ff15913d4360f994fb89a31782194db1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -101,9 +101,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 20
   damage: 0
-  timeDelayAct: 3
+  timeDelayAct: 10
   prefapSun: {fileID: 3533640653444511520, guid: 68056eb2dc9fef34d9eb8bffb94db296, type: 3}
   posSpawnSun: {fileID: 7658246207159864639}
+  SunCountSpawn: 2
 --- !u!95 &282353940101282579
 Animator:
   serializedVersion: 5

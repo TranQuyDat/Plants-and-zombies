@@ -5,6 +5,8 @@ using UnityEngine;
 public class ActionOfzombie : MonoBehaviour
 {
     public bool isIdle;
+    public float maxhp;
+    public float maxSpeed;
     public float speed;
     public float hp;
     public int range;
@@ -15,20 +17,25 @@ public class ActionOfzombie : MonoBehaviour
     private bool canEat = true;
     public Animator myAnimator;
     public GameManager gameManager;
-    float maxhp;
+    public PoolingEnemy poolingEnemy;
 
-    public void Start()
+    private void Awake()
     {
+        poolingEnemy = FindObjectOfType<PoolingEnemy>();
         gameManager = FindObjectOfType<GameManager>();
         myAnimator = GetComponent<Animator>();
-        maxhp = hp;
+    }
+    public void Start()
+    {
+        hp = maxhp;
+        speed = maxSpeed;
         myAnimator.SetFloat("hp", hp/ maxhp);
-        Idle();
+        
     }
     public void Update()
     {
         onCollideTheTree();
-        
+        Idle();
     }
 
     public void Idle()
@@ -38,6 +45,14 @@ public class ActionOfzombie : MonoBehaviour
             myAnimator.Play("idle");
             speed = 0;
         }
+    }
+    public void setDefault()
+    {
+        hp = maxhp;
+        this.GetComponent<SpriteRenderer>().color = Color.white;
+        speed = maxSpeed;
+        myAnimator.SetFloat("hp", hp / maxhp);
+        isIdle = false;
     }
     public void onCollideTheTree()
     {
@@ -130,6 +145,6 @@ public class ActionOfzombie : MonoBehaviour
         gameManager.soundManager.playSFX(SoundType.sfx_zombieFall);
         yield return new WaitForSeconds(2f);
         gameManager.UpdateAliveZB(-1);
-        Destroy(this.gameObject);
+        poolingEnemy.destroy(this.gameObject);//destroy zom
     }
 }
