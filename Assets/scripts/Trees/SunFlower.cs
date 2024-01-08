@@ -6,6 +6,7 @@ public class SunFlower : ActionOfTreeGetSun
 {
     // Start is called before the first frame update
     GameManager gameManager;
+    public int SunCountSpawn;
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -19,21 +20,25 @@ public class SunFlower : ActionOfTreeGetSun
     }
     public override void action()
     {
-        if (!gameManager.GameStart || posSpawnSun == null) return;
-        GameObject mySun = Instantiate(prefapSun, posSpawnSun.position, Quaternion.identity);
-        gameManager.pointsManager.listSun.Add(mySun);
-        SpriteRenderer sunSpriteRenderer = mySun.GetComponent<SpriteRenderer>();
-        if (sunSpriteRenderer != null)
+        for (int i = 0; i < SunCountSpawn; i++)
         {
-            sunSpriteRenderer.sortingOrder = 100;
+            if (!gameManager.GameStart || posSpawnSun == null) return;
+            Vector2 pos = new Vector2(posSpawnSun.position.x + (i*0.5f), posSpawnSun.position.y);
+            GameObject mySun = Instantiate(prefapSun, pos, Quaternion.identity);
+            gameManager.pointsManager.listSun.Add(mySun);
+            SpriteRenderer sunSpriteRenderer = mySun.GetComponent<SpriteRenderer>();
+            if (sunSpriteRenderer != null)
+            {
+                sunSpriteRenderer.sortingOrder = 100;
+            }
+            Rigidbody2D sunRigidbody = mySun.GetComponent<Rigidbody2D>();
+            if (sunRigidbody != null)
+            {
+                sunRigidbody.gravityScale = 0;
+            }
+            if (mySun == null) return;
+            StartCoroutine(DropToYPos(mySun.transform, posSpawnSun.position.y - 0.5f, 1f));
         }
-        Rigidbody2D sunRigidbody = mySun.GetComponent<Rigidbody2D>();
-        if (sunRigidbody != null)
-        {
-            sunRigidbody.gravityScale = 0;
-        }
-        if (mySun == null ) return;
-        StartCoroutine(DropToYPos(mySun.transform, posSpawnSun.position.y - 0.5f, 1f));
     }
     IEnumerator DropToYPos(Transform targetTransform, float targetY, float duration)
     {

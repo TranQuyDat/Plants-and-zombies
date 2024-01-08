@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2723215680099664317}
   - component: {fileID: 9067158986940751862}
   - component: {fileID: -381184588798220026}
-  - component: {fileID: -5410603780585155729}
   - component: {fileID: 8532001416894997495}
+  - component: {fileID: -6509541858395678773}
   m_Layer: 6
   m_Name: brickhead
   m_TagString: zombie
@@ -109,28 +109,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-5410603780585155729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539072946232951947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e750afba70da04b8869143f1ab276e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.5
-  hp: 25
-  range: 0
-  damage: 1
-  cooldown: 2.5
-  plantMask:
-    serializedVersion: 2
-    m_Bits: 0
-  myAnimator: {fileID: 0}
-  gameManager: {fileID: 0}
 --- !u!61 &8532001416894997495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -160,7 +138,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.06359744, y: 0.38590246}
@@ -176,6 +154,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5088223, y: 0.8208103}
   m_EdgeRadius: 0
+--- !u!114 &-6509541858395678773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539072946232951947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9680b152587914c9b7642390205634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isIdle: 0
+  maxhp: 25
+  maxSpeed: 0.5
+  speed: 0
+  hp: 0
+  range: 0
+  damage: 1
+  cooldown: 0
+  plantMask:
+    serializedVersion: 2
+    m_Bits: 128
+  myAnimator: {fileID: 0}
+  gameManager: {fileID: 0}
+  poolingEnemy: {fileID: 0}
 --- !u!1 &3454323104352879076
 GameObject:
   m_ObjectHideFlags: 0

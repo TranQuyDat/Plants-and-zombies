@@ -166,6 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb9680b152587914c9b7642390205634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isIdle: 0
+  maxhp: 10
+  maxSpeed: 0.5
   speed: 0.5
   hp: 10
   range: 0
@@ -176,6 +179,7 @@ MonoBehaviour:
     m_Bits: 128
   myAnimator: {fileID: 0}
   gameManager: {fileID: 0}
+  poolingEnemy: {fileID: 0}
 --- !u!1 &2134086040420186055
 GameObject:
   m_ObjectHideFlags: 0
