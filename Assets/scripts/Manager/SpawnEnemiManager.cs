@@ -37,10 +37,13 @@ public class SpawnEnemiManager : MonoBehaviour
     public PoolingEnemy poolingEnemy;
 
     public bool zombiesIsComing;
-    private void Start()
+    private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
         poolingEnemy = this.GetComponent<PoolingEnemy>();
+    }
+    private void Start()
+    {
         defaultSetting();
         InvokeRepeating("spawnZombies", timedelaySpawn, timedelaySpawn);
     }
