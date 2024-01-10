@@ -2574,6 +2574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destroyonload
       objectReference: {fileID: 0}
+    - target: {fileID: 1215053570506009299, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2104559322125960900, guid: ddd5e366ae551aa4087a5f2f57b67ae8, type: 3}
       propertyPath: m_RootOrder
       value: 4

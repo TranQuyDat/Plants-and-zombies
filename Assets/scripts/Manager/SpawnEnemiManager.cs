@@ -76,10 +76,10 @@ public class SpawnEnemiManager : MonoBehaviour
     public void updateLevel()
     {
         levelnum+=1;
+        if (levelnum >= Levels.Count) return;
         txt_level.text = "level: " + (levelnum + 1);
         wavenum = -1;
         Cur_ZombiesCount = 0;
-        if (levelnum >= Levels.Count) return;
         gameManager.progressBar.fillbar.value = 0;
         curLevel = Levels[levelnum];
     }
