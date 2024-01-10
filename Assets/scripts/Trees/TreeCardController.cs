@@ -61,8 +61,9 @@ public class TreeCardController : MonoBehaviour
     private void OnMouseDown()
     {
         if (mask.fillAmount > 0 || !isActiveCard || selectedCusor.cur_Item != null) return;
-        Debug.Log("this ok ");
+        //Debug.Log("this ok ");
         selectedCusor.cur_tree = Tree;
+        gameManager.pointsManager.addPoint(selectedCusor.priceOftree);
         selectedCusor.priceOftree = price;
         selectedCusor.isSelected = false;
         isActiveCard = false;

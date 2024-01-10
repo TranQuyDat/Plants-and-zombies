@@ -1603,6 +1603,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1185669018524359766, guid: 4d17950e2a2be0b4e98dc87b88b63477, type: 3}
+      propertyPath: m_text
+      value: 'Map3
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 3199834257714936201, guid: 4d17950e2a2be0b4e98dc87b88b63477, type: 3}
       propertyPath: m_Name
       value: Map (2)
@@ -2524,6 +2530,12 @@ PrefabInstance:
     - target: {fileID: 711019472909175869, guid: 4d17950e2a2be0b4e98dc87b88b63477, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185669018524359766, guid: 4d17950e2a2be0b4e98dc87b88b63477, type: 3}
+      propertyPath: m_text
+      value: 'Map2
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 3199834257714936201, guid: 4d17950e2a2be0b4e98dc87b88b63477, type: 3}
       propertyPath: m_Name
@@ -4698,10 +4710,6 @@ PrefabInstance:
     - target: {fileID: 3199834257714936201, guid: 4d17950e2a2be0b4e98dc87b88b63477, type: 3}
       propertyPath: m_Name
       value: Map
-      objectReference: {fileID: 0}
-    - target: {fileID: 6195603511321256875, guid: 4d17950e2a2be0b4e98dc87b88b63477, type: 3}
-      propertyPath: transition
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
