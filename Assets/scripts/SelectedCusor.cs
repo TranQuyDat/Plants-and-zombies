@@ -14,6 +14,7 @@ public class SelectedCusor : MonoBehaviour
     [HideInInspector] public int priceOftree;
     private void Start()
     {
+        priceOftree = 0;
         isSelected = false;
         gameManager = FindObjectOfType<GameManager>();
     }

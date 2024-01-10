@@ -15,7 +15,7 @@ public class projectileController : MonoBehaviour
     {
         gameManager = FindObjectOfType<GameManager>();
         animator = FindObjectOfType<Animator>();
-        timelife = Random.Range(5, 7);
+        timelife = 4.7f;
     }
 
     // Update is called once per frame
@@ -24,10 +24,15 @@ public class projectileController : MonoBehaviour
         Vector2 pos = new Vector2(transform.position.x+1*speed*Time.deltaTime,
             transform.position.y);
         transform.position = pos;
-        Invoke("lifetime",timelife);
+        if(gameManager.GameStart == false)
+        {
+            destoyprjt();
+        }
+        Invoke("destoyprjt", timelife);
+        
     }
 
-    public void lifetime()
+    public void destoyprjt()
     {
         Destroy(this.gameObject);
         CancelInvoke("lifetime");
