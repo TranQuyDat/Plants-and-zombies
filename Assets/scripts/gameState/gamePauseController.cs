@@ -27,6 +27,7 @@ public class gamePauseController : MonoBehaviour
     {
         //chuyen ve main menu
         Time.timeScale = 1;
+        
         gameManager.changeScene(Scene.Menu);
     }
 }

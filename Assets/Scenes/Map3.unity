@@ -333,7 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609182207513351485, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 609182207513351485, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_SizeDelta.x
@@ -772,6 +772,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[1].listwave.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: Levels.Array.data[0].listwave.Array.data[0].ZombiesCount
       value: 2
       objectReference: {fileID: 0}
@@ -782,6 +786,22 @@ PrefabInstance:
     - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: Levels.Array.data[0].listwave.Array.data[4].ZombiesCount
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[1].listwave.Array.data[0].ZombiesCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[1].listwave.Array.data[1].ZombiesCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[1].listwave.Array.data[2].ZombiesCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[1].listwave.Array.data[3].ZombiesCount
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: Levels.Array.data[0].listwave.Array.data[1].zombiesType.Array.size
@@ -798,6 +818,10 @@ PrefabInstance:
     - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: Levels.Array.data[0].listwave.Array.data[4].zombiesType.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[1].listwave.Array.data[3].zombiesType.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: Levels.Array.data[0].listwave.Array.data[0].zombiesType.Array.data[0]
@@ -855,6 +879,14 @@ PrefabInstance:
       propertyPath: Levels.Array.data[0].listwave.Array.data[4].zombiesType.Array.data[3]
       value: 
       objectReference: {fileID: 539072946232951947, guid: 22d64d246c58abc42a435c6a863b21d9, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[1].listwave.Array.data[3].zombiesType.Array.data[0]
+      value: 
+      objectReference: {fileID: 2387688640192490170, guid: 47335405c1a1758489d2a3befeeafbbf, type: 3}
+    - target: {fileID: 2262228335343169467, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: Levels.Array.data[1].listwave.Array.data[3].zombiesType.Array.data[1]
+      value: 
+      objectReference: {fileID: 1536808113361810764, guid: 0d9ea0719525ded4d8faf1a530915180, type: 3}
     - target: {fileID: 2295113911719563625, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2305,16 +2337,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8030759636591846278, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8030759636591846278, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].key
       value: 
       objectReference: {fileID: -507007840457184467, guid: 8356c32c7d9599a45bd8689ba6ba10f1, type: 2}
     - target: {fileID: 8030759636591846278, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_SceneBindings.Array.data[5].key
+      value: 
+      objectReference: {fileID: 6299142515542395277, guid: 8356c32c7d9599a45bd8689ba6ba10f1, type: 2}
+    - target: {fileID: 8030759636591846278, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
       objectReference: {fileID: 1683149821}
+    - target: {fileID: 8030759636591846278, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+      propertyPath: m_SceneBindings.Array.data[5].value
+      value: 
+      objectReference: {fileID: 1683149822}
     - target: {fileID: 8056370523411883576, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2575,6 +2615,11 @@ PrefabInstance:
 --- !u!1 &1683149821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5689978653465590532, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
+  m_PrefabInstance: {fileID: 1683149820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1683149822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6173043400307128772, guid: 99370ce706b7ac94b9307895db7d9cf4, type: 3}
   m_PrefabInstance: {fileID: 1683149820}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2099456266

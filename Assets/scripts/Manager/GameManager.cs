@@ -56,6 +56,7 @@ public class GameManager : MonoBehaviour
         if (soundManager == null) soundManager = FindObjectOfType<soundManager>();
         updateGamestate();
         GameWin();
+        Debug.Log(zombiecount);
     }
     public void updateGamestate()
     {
@@ -78,6 +79,7 @@ public class GameManager : MonoBehaviour
         GameStart = false;
         ischangeState = true;
         state = State.gamewin;
+        cursor.ResetCursor();
         soundManager.playMusic(SoundType.music_win,false);
     }
 
@@ -87,6 +89,7 @@ public class GameManager : MonoBehaviour
         GameStart = false;
         ischangeState = true;
         state = State.gameover;
+        cursor.ResetCursor();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -94,6 +97,7 @@ public class GameManager : MonoBehaviour
         {
             //Debug.Log("game over");
             GameOver();
+            
         }
     }
 
@@ -129,6 +133,7 @@ public class GameManager : MonoBehaviour
     public void UpdateAliveZB(int num)
     {
         zombiecount += num;
+        
     }
 
    public void btn_click()

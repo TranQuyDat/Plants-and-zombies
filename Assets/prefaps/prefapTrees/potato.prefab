@@ -169,7 +169,7 @@ MonoBehaviour:
   damage: 0
   rangeBom: 2
   disToAction: 1
-  timeMaturation: 3.5
+  timeMaturation: 5
   layerzom:
     serializedVersion: 2
     m_Bits: 64

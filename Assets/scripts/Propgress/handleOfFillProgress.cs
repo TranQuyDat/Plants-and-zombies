@@ -9,6 +9,6 @@ public class handleOfFillProgress : MonoBehaviour
     {
         if (!collision.CompareTag("nextwave")) return;
         spawn.nextWave = true;
-        Debug.Log("nextwave");
+        //Debug.Log("nextwave");
     }
 }

@@ -64,7 +64,7 @@ public class ActionOfzombie : MonoBehaviour
             AIaction targetTree = hit.collider.GetComponent<AIaction>();
             canWalk = false;
             // Zombie detected a plant, stop walking
-            Debug.Log("Da gap plant");
+            //Debug.Log("Da gap plant");
             // Zombie detected a plant, stop walking
             Eat(targetTree);
 
@@ -89,17 +89,17 @@ public class ActionOfzombie : MonoBehaviour
     }
     public void Eat(AIaction targetTree)
     {
-        Debug.Log("Goi Ham Eat");
+        //Debug.Log("Goi Ham Eat");
         if (!canEat)
             return;
         canEat = false;
         myAnimator.SetBool("walk", false);
         myAnimator.SetBool("eat", true);
         gameManager.soundManager.playSFX(SoundType.sfx_zombieEat);
-        Debug.Log("Before invoking EatCooldown");
+        //Debug.Log("Before invoking EatCooldown");
         Invoke("EatCooldown", cooldown);
 
-        Debug.Log("After invoking EatCooldown");
+        //Debug.Log("After invoking EatCooldown");
         targetTree.Hit(damage);
     }
     public void EatCooldown()

@@ -23,7 +23,12 @@ public class SelectedCusor : MonoBehaviour
         if (!gameManager.GameStart) return;
         selectTree();
         selectItem();
-        ResetCursor();
+        
+
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            ResetCursor();
+        }
     }
 
     public void selectTree()
@@ -56,7 +61,7 @@ public class SelectedCusor : MonoBehaviour
 
     public void ResetCursor()
     {
-        if (!Input.GetKeyDown(KeyCode.Mouse1)) return;
+        
         if(cur_tree != null)
         {
             gameManager.pointsManager.addPoint(priceOftree);
