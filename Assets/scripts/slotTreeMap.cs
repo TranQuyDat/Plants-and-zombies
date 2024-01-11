@@ -84,6 +84,7 @@ public class slotTreeMap : MonoBehaviour
             selectedCusor.cur_tree = null;
             curTree.transform.localScale = ShadownTree.transform.localScale;
             curTree.GetComponent<SpriteRenderer>().color = Color.white;
+            selectedCusor.treeCard.mask.fillAmount = 1;
         }
     }
 }

@@ -68,7 +68,7 @@ public class TreeCardController : MonoBehaviour
         selectedCusor.priceOftree = price;
         selectedCusor.isSelected = false;
         isActiveCard = false;
-        mask.fillAmount = 1f;
+        selectedCusor.treeCard = this;
         gameManager.pointsManager.addPoint(-price);
         
     }

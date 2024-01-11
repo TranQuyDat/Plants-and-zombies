@@ -12,6 +12,7 @@ public class SelectedCusor : MonoBehaviour
     GameManager gameManager;
     [HideInInspector] public bool isSelected;
     [HideInInspector] public int priceOftree;
+    [HideInInspector] public TreeCardController treeCard;
     private void Start()
     {
         priceOftree = 0;
@@ -72,5 +73,6 @@ public class SelectedCusor : MonoBehaviour
         isSelected = false;
         slotTree.SetActive(false);
         shovelboxctrl.shovelDropToBox();
+        treeCard = null;
     }
 }
